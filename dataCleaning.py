@@ -2,19 +2,19 @@ import pandas as pd
 from pandas_streaming.df import StreamingDataFrame
 from pathlib import Path
 
-
+# import ADNIMERGE and RECMHIST files
 adni_merge = "data/ADNIMERGE.csv"
 medhist = "data/RECMHIST.csv"
 
 
 
-# used headers 
+# create a white list of use headers for each file
 adni_use_header = ["RID", "VISCODE", "EXAMDATE", "DX_bl", "AGE", "PTGENDER", "PTEDUCAT", "PTETHCAT", "PTRACCAT", "PTMARRY",
                "APOE4", "DX"]
 medh_use_header = ["RID", "EXAMDATE", "RECNO", "MHDESC"]
 
 
-
+# get all the existing headers in each file
 def get_headers(file_name):
     headers = list(pd.read_csv(file_name,sep="|",nrows=1).columns)[0].replace('"',"").split(",")
     return headers
@@ -35,14 +35,6 @@ def clean_data(file_name ,use_header):
             print("Error: Headers do not exist")
     df.to_csv("processed_" + fname + ".csv")
 
-# clean data by removing unused headers
-#print(use_header)
-
-# clean ADNIMERGE file by removing all unuse headers
-#clean_data(adni_merge, adni_use_header)
-
-# clean RECMHIST file by removing all unuse headers
-#clean_data(medhist, medh_use_header)
 
 # convert VISCODE data into column making RID primary key of the data
 def row_to_col(file_name):
@@ -70,8 +62,6 @@ def row_to_col(file_name):
     result = pd.merge(df2,df4,on = "RID", how="left")
     result.to_csv("converted_ADNIMERGE.csv")
 
-#adni_processed = "processed_ADNIMERGE.csv"
-#row_to_col(adni_processed)
 
 # add medical history info to patients data
 def add_med_info(file_name, file_name2):
@@ -96,10 +86,39 @@ def add_med_info(file_name, file_name2):
     df4 = df3.T
     df4 = df4.rename_axis("RID")
     result = pd.merge(df2, df4, on = "RID", how = "left")
-    result.pop("Unnamed: 0")
     result.pop("VISCODE")
-    result.to_csv("all_ADNIMERGE.csv")
+    result.pop("Unnamed: 0")
+    result.to_csv("all_ADNIMERGE.csv", index=False)
 
+# --------------------------------------------------------
+#
+# PROGRAM RUNNING
+#
+# --------------------------------------------------------
+
+# check use headers for each file 
+#print(adni_use_header)
+#print(medh_use_header)
+
+# clean ADNIMERGE file by removing all unuse headers
+#clean_data(adni_merge, adni_use_header)
+
+# clean RECMHIST file by removing all unuse headers
+#clean_data(medhist, medh_use_header)
+
+# import the new adni files after removed all the unused headers
+#adni_processed = "processed_ADNIMERGE.csv"
+
+# extract all the baseline and months in VISCODE columns and create a column for each one of them
+#row_to_col(adni_processed)
+
+# import processed medical history file
 #adni_processed_med = "processed_RECMHIST.csv"
+
+# import new converted ADNIMERGE after removing VISCODE column
 #adni_converted = "converted_ADNIMERGE.csv"
+
+# add medical history info to each patient according to their RID
 #add_med_info(adni_processed_med, adni_converted)
+
+# --------------------------------------------------------

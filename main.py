@@ -50,9 +50,11 @@ def check_is_in_adni(adni_file, rid_list):
 
 def get_disease_dict(file_name1, col1, file_name2, col2, disease_list):
     disease_dict = {}
+    disease_and_rid = []
     prev_dx1 = file_name1[col1].tolist()
     prev_dx2 = file_name2[col2].tolist()
     for d in disease_list.itertuples():
+        temp = {}
         disease_name = d.disease
         file1_index = match(disease_name, prev_dx1)
         file1_list = file_name1[file_name1.index.isin(file1_index)]
@@ -63,28 +65,32 @@ def get_disease_dict(file_name1, col1, file_name2, col2, disease_list):
         rid_list = np.unique(file1_rid_list + file2_rid_list).tolist()
         final_rid = check_is_in_adni(adni_merge, rid_list)
         count = len(final_rid)
-        disease_dict[disease_name] = count
+        if (count != 0):
+            disease_dict[disease_name] = count
+        if (len(final_rid) != 0):
+            temp[disease_name] = final_rid
+            disease_and_rid.append(temp)
 
-    return disease_dict
+    di_rid_dict = {"disease": disease_and_rid}
+    return disease_dict, di_rid_dict
+
 
 # ------------------------------------------------------------
 # run disease dict funtion to get total number of patients with the specified medical condition
 # disease_dict = get_disease_dict(
-#    init_health, "IHDESC", rec_hist, "MHDESC", disease_list)
-
+#     init_health, "IHDESC", rec_hist, "MHDESC", disease_list)
 # print(disease_dict)
+# print(disease_dict[1])
 
 # put the dictionary into json format
-# jsonStr = json.dumps(disease_dict)
-# jsonFile = open("disease_dict.json", "w")
+# jsonStr = json.dumps(disease_dict[1])
+# jsonFile = open("di_rid_dict.json", "w")
 # jsonFile.write(jsonStr)
 # jsonFile.close()
 # ------------------------------------------------------------
 
 # remove empty entries in json file
-
-
-def remove_empty(file_json):
+def tidy_json(file_json):
     res_dict = {}
     # remove unrelated disease name
     black_list = ["Pain", "Glasses", "Smoking",
@@ -104,7 +110,7 @@ def remove_empty(file_json):
 
 # ------------------------------------------------------------
 # remove any entry in the json file that has 0 count
-remove_empty(disease_json)
+# tidy_json(disease_json)
 # ------------------------------------------------------------
 
 # get top diseaes present in the patients
@@ -117,4 +123,14 @@ def get_top_val(file_json, n, order):
     return dict(top)
 
 
-print(get_top_val(processed_disease, 30, False))
+# print(get_top_val(processed_disease, 25, False))
+
+# get the numbers of patients at certain stages
+
+
+def patient_cond():
+    return 0
+
+
+# TODO: merge high cholesterol and hypercholesterolemia merge into one
+# Up to top 9 + sleep, anxiety and depression

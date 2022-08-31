@@ -1,4 +1,5 @@
 from cgi import print_directory
+from cmath import nan
 from itertools import count
 from operator import index
 import pandas as pd
@@ -6,6 +7,7 @@ import numpy as np
 import pprint
 import json
 import re
+from prettytable import PrettyTable
 from os import walk
 import scipy.stats as stats
 import matplotlib.pyplot as plt
@@ -22,8 +24,9 @@ processed_disease = pd.read_json(
     "data/processed_data/processed_disease_dict.json", typ="series"
 )
 di_rid_json = "data/processed_data/di_rid_dict.json"
-top_diseases = "top_diseases.json"
-rid_with_cond = "rid_with_cond.json"
+top_diseases = "data/processed_data/top_diseases.json"
+rid_with_cond = "data/processed_data/rid_with_cond.json"
+disease_cond = "data/processed_data/disease_cond.json"
 
 
 # match function to compare disease types with medical history
@@ -256,5 +259,70 @@ def get_rid_with_cond(file_name, col):
 
 
 def get_patient_disease_cond(top_diseases, rid_with_cond):
+    df1 = pd.read_json(top_diseases, typ="series")
+    df2 = pd.read_json(rid_with_cond, typ="series")
+    diseases = list(df1.keys())
+    summary_dict = dict(df1)
+    for i in range(len(diseases)):
+        cn_count = 0
+        mci_count = 0
+        ad_count = 0
+        nan_count = 0
+        d = diseases[i]
+        rid_list = df1[d]["RID_LIST"]
+        for j in range(len(rid_list)):
+            try:
+                rid = rid_list[j]
+                cond = df2[rid]
+                if cond == "CN":
+                    cn_count += 1
+                elif cond == "MCI":
+                    mci_count += 1
+                elif cond == "AD":
+                    ad_count += 1
+                else:
+                    print("ERROR")
+            except Exception:
+                print("The Key does not exist")
+                nan_count += 1
+        summary_dict[d]["COND_COUNT"] = {
+            "CN": cn_count,
+            "MCI": mci_count,
+            "AD": ad_count,
+            "NaN": nan_count,
+        }
+    return summary_dict
 
-    return 0
+
+# disease_and_cond = get_patient_disease_cond(top_diseases, rid_with_cond)
+
+# create a json with picked disease, and patients conditions
+# jsonStr = json.dumps(disease_and_cond, cls=NpEncoder)
+# jsonFile = open("disease_cond.json", "w")
+# jsonFile.write(jsonStr)
+# jsonFile.close()
+
+
+def display_summary_table(disease_cond):
+    df = pd.read_json(disease_cond, typ="series")
+    headers = list(df.keys())
+    display_data = dict(df)
+    data_list = []
+    for i in range(len(headers)):
+        d = headers[i]
+        d_dict = dict(df[d])
+        cn_count = d_dict["COND_COUNT"]["CN"]
+        mci_count = d_dict["COND_COUNT"]["MCI"]
+        ad_count = d_dict["COND_COUNT"]["AD"]
+        nan_count = d_dict["COND_COUNT"]["NaN"]
+        total = d_dict["TOTAL"]
+        data = [d, cn_count, mci_count, ad_count, nan_count, total]
+        data_list.append(data)
+
+    x = PrettyTable()
+    x.field_names = ["Disease", "CN", "MCI", "AD", "NaN", "TOTAL"]
+    x.add_rows(data_list)
+    return x
+
+
+print(display_summary_table(disease_cond).get_string(sortby="TOTAL", reversesort=True))

@@ -28,7 +28,6 @@ top_diseases = "data/processed_data/top_diseases.json"
 rid_with_cond = "data/processed_data/rid_with_cond.json"
 disease_cond = "data/processed_data/disease_cond.json"
 
-
 # match function to compare disease types with medical history
 def match_disease(disease_name, prev_dx):
     print(disease_name)
@@ -149,9 +148,10 @@ def get_top_val(file_json, n, order):
     return dict(top)
 
 
+# ------------------------------------------------------------
 # get top diseases mentioned in the data by count
 # print(get_top_val(processed_disease, 25, False))
-
+# ------------------------------------------------------------
 
 # extract wanted diseases from the overall dict
 def get_pick_summary(file_json, pick_diseases):
@@ -196,6 +196,7 @@ pick_diseases = [
     "Sleep Apnea",
     "Insomnia",
 ]
+# ------------------------------------------------------------
 # picked_summary = get_pick_summary(di_rid_json, pick_diseases)
 
 # # merge Hypercholesterolemia and High Cholesterol together because they are typically the same thing
@@ -206,6 +207,7 @@ pick_diseases = [
 # jsonFile = open("top_diseases.json", "w")
 # jsonFile.write(jsonStr)
 # jsonFile.close()
+# ------------------------------------------------------------
 
 
 def get_rid_with_cond(file_name, col):
@@ -248,6 +250,7 @@ def get_rid_with_cond(file_name, col):
     return rid_summary
 
 
+# ------------------------------------------------------------
 # get rid with their condition, CN, MCI and AD
 # rid_with_cond = get_rid_with_cond(adni_merge, "DX")
 
@@ -256,6 +259,7 @@ def get_rid_with_cond(file_name, col):
 # jsonFile = open("rid_with_cond.json", "w")
 # jsonFile.write(jsonStr)
 # jsonFile.close()
+# ------------------------------------------------------------
 
 
 def get_patient_disease_cond(top_diseases, rid_with_cond):
@@ -294,6 +298,7 @@ def get_patient_disease_cond(top_diseases, rid_with_cond):
     return summary_dict
 
 
+# ------------------------------------------------------------
 # disease_and_cond = get_patient_disease_cond(top_diseases, rid_with_cond)
 
 # create a json with picked disease, and patients conditions
@@ -301,12 +306,12 @@ def get_patient_disease_cond(top_diseases, rid_with_cond):
 # jsonFile = open("disease_cond.json", "w")
 # jsonFile.write(jsonStr)
 # jsonFile.close()
+# ------------------------------------------------------------
 
 
 def display_summary_table(disease_cond):
     df = pd.read_json(disease_cond, typ="series")
     headers = list(df.keys())
-    display_data = dict(df)
     data_list = []
     for i in range(len(headers)):
         d = headers[i]
@@ -320,9 +325,53 @@ def display_summary_table(disease_cond):
         data_list.append(data)
 
     x = PrettyTable()
-    x.field_names = ["Disease", "CN", "MCI", "AD", "NaN", "TOTAL"]
+    x.field_names = ["DISEASE", "CN", "MCI", "AD", "NaN", "TOTAL"]
     x.add_rows(data_list)
+
     return x
 
 
-print(display_summary_table(disease_cond).get_string(sortby="TOTAL", reversesort=True))
+# ------------------------------------------------------------
+# print(display_summary_table(disease_cond).get_string(sortby="TOTAL", reversesort=True))
+
+# write data to csv file
+# csv_str = display_summary_table(disease_cond).get_csv_string(
+#     sortby="TOTAL", reversesort=True
+# )
+# with open("patients_disease_cond.csv", "w", newline="") as f_output:
+#     f_output.write(csv_str)
+# ------------------------------------------------------------
+
+
+def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
+    df1 = pd.read_json(disease_cond, typ="series")
+    df2 = pd.read_csv(adni_merge, low_memory=False)
+    df3 = dict(pd.read_json(rid_with_cond, typ="series"))
+    rid_list = list(np.unique(df2["RID"]))
+    data_list = []
+    for i in range(len(rid_list)):
+        try:
+            rid = rid_list[i]
+            cond = df3[rid]
+            diseases_list = []
+            headers = list(df1.keys())
+            for j in range(len(headers)):
+                if rid in df1[headers[j]]["RID_LIST"]:
+                    diseases_list.append(headers[j])
+            diseases_str = "-".join(diseases_list)
+            diseases_count = len(diseases_list)
+            data = [rid, cond, diseases_str, diseases_count]
+            data_list.append(data)
+        except Exception:
+            print("No condition information on this patient")
+            data = [rid, "NaN", "NaN", "NaN"]
+            data_list.append(data)
+    x = PrettyTable()
+    x.field_names = ["RID", "CONDITION", "DISEASES", "DISEASE_COUNT"]
+    x.add_rows(data_list)
+    csv_str = x.get_csv_string()
+    with open("patients_info.csv", "w", newline="") as f_output:
+        f_output.write(csv_str)
+
+
+patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)

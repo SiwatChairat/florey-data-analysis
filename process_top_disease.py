@@ -10,9 +10,9 @@ from collections import OrderedDict, ChainMap
 
 
 # import data
-init_health = "data/INITHEALTH.csv"
-rec_hist = "data/RECMHIST.csv"
-adni_merge = "data/ADNIMERGE.csv"
+init_health = "data/ADNI/INITHEALTH.csv"
+rec_hist = "data/ADNI/RECMHIST.csv"
+adni_merge = "data/ADNI/ADNIMERGE.csv"
 disease_list = "data/diseases_data.json"
 disease_json = "data/processed_data/disease_dict.json"
 processed_disease = "data/processed_data/processed_disease_dict.json"
@@ -375,3 +375,27 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
 # patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)
 
 # ------------------------------------------------------------
+
+
+def cond_count(file):
+    df = pd.read_json(file, typ="series")
+    dict_keys = list(df.keys())
+    cn_count = 0
+    mci_count = 0
+    ad_count = 0
+    for i in range(len(dict_keys)):
+        key = dict_keys[i]
+        if df[key] == "CN":
+            cn_count += 1
+        elif df[key] == "MCI":
+            mci_count += 1
+        elif df[key] == "AD":
+            ad_count += 1
+    return cn_count, mci_count, ad_count
+
+
+# print(cond_count(rid_with_cond))
+
+patients = pd.read_csv(adni_merge, low_memory=False)
+count = len(np.unique(patients["RID"]))
+print(count)

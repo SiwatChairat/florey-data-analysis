@@ -1,10 +1,5 @@
-from cgi import print_directory
-from cmath import nan
-from itertools import count
-from operator import index
 import pandas as pd
 import numpy as np
-import pprint
 import json
 import re
 from prettytable import PrettyTable
@@ -375,4 +370,8 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
         f_output.write(csv_str)
 
 
-patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)
+# ------------------------------------------------------------
+# print patients information with the latest condition sorted by their RID
+# patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)
+
+# ------------------------------------------------------------

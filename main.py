@@ -15,14 +15,12 @@ from collections import OrderedDict, ChainMap
 
 
 # import data
-init_health = pd.read_csv("data/INITHEALTH.csv", low_memory=False)
-rec_hist = pd.read_csv("data/RECMHIST.csv", low_memory=False)
+init_health = "data/INITHEALTH.csv"
+rec_hist = "data/RECMHIST.csv"
 adni_merge = "data/ADNIMERGE.csv"
 disease_list = "data/diseases_data.json"
 disease_json = "data/processed_data/disease_dict.json"
-processed_disease = pd.read_json(
-    "data/processed_data/processed_disease_dict.json", typ="series"
-)
+processed_disease = "data/processed_data/processed_disease_dict.json"
 di_rid_json = "data/processed_data/di_rid_dict.json"
 top_diseases = "data/processed_data/top_diseases.json"
 rid_with_cond = "data/processed_data/rid_with_cond.json"
@@ -57,18 +55,20 @@ def check_is_in_adni(adni_file, rid_list):
 
 # get the count of patients with diseases
 def get_disease_dict(file_name1, col1, file_name2, col2, disease_list):
+    df1 = pd.read_csv(file_name1, low_memory=False)
+    df2 = pd.read_csv(file_name2, low_memory=False)
     disease_dict = {}
     disease_and_rid = []
-    prev_dx1 = file_name1[col1].tolist()
-    prev_dx2 = file_name2[col2].tolist()
+    prev_dx1 = df1[col1].tolist()
+    prev_dx2 = df2[col2].tolist()
     disease_list = pd.read_json(disease_list)
     for d in disease_list.itertuples():
         temp = {}
         disease_name = d.disease
         file1_index = match_disease(disease_name, prev_dx1)
-        file1_list = file_name1[file_name1.index.isin(file1_index)]
+        file1_list = df1[df1.index.isin(file1_index)]
         file2_index = match_disease(disease_name, prev_dx2)
-        file2_list = file_name2[file_name2.index.isin(file2_index)]
+        file2_list = df2[df2.index.isin(file2_index)]
         file1_rid_list = file1_list.RID.tolist()
         file2_rid_list = file2_list.RID.tolist()
         rid_list = np.unique(file1_rid_list + file2_rid_list).tolist()
@@ -142,7 +142,8 @@ def tidy_json(file_json):
 
 # get top diseaes present in the patients
 def get_top_val(file_json, n, order):
-    top = sorted(file_json.items(), key=lambda x: x[1], reverse=True)[:n]
+    df = pd.read_json(file_json, typ="series")
+    top = sorted(df.items(), key=lambda x: x[1], reverse=True)[:n]
     if order:
         return OrderedDict(top)
     return dict(top)

@@ -1,3 +1,5 @@
+import collections
+from operator import le
 import pandas as pd
 import numpy as np
 import json
@@ -345,6 +347,23 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
     df3 = dict(pd.read_json(rid_with_cond, typ="series"))
     rid_list = list(np.unique(df2["RID"]))
     data_list = []
+    d = sorted(
+        [
+            "Hypertension",
+            "Arthritis",
+            "Depression",
+            "Thyroid",
+            "Hypercholesterolemia",
+            "High Cholesterol",
+            "Hyperlipidemia",
+            "Hearing",
+            "Osteoarthritis",
+            "Cancer",
+            "Anxiety",
+            "Sleep Apnea",
+            "Insomnia",
+        ]
+    )
     for i in range(len(rid_list)):
         try:
             rid = rid_list[i]
@@ -354,25 +373,73 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
             for j in range(len(headers)):
                 if rid in df1[headers[j]]["RID_LIST"]:
                     diseases_list.append(headers[j])
-            diseases_str = "-".join(diseases_list)
-            diseases_count = len(diseases_list)
-            data = [rid, cond, diseases_str, diseases_count]
+
+            ordered_list = sorted(diseases_list)
+            diseases_count = len(ordered_list)
+            if collections.Counter(ordered_list) != collections.Counter(d):
+                for k in range(len(d)):
+                    try:
+                        if ordered_list[k] != d[k]:
+                            ordered_list.insert(k, "-")
+
+                    except Exception as e:
+                        ordered_list.append("-")
+                        continue
+            data = [rid, cond] + ordered_list + [diseases_count]
+            if rid == 2:
+                print(data)
             data_list.append(data)
         except Exception:
             print("No condition information on this patient")
-            data = [rid, "NaN", "NaN", "NaN"]
+            data = [
+                rid,
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+            ]
             data_list.append(data)
     x = PrettyTable()
-    x.field_names = ["RID", "CONDITION", "DISEASES", "DISEASE_COUNT"]
+    x.field_names = [
+        "RID",
+        "CONDITION",
+        "Anxiety",
+        "Arthritis",
+        "Cancer",
+        "Depression",
+        "Hearing",
+        "High Cholesterol",
+        "Hypercholesterolemia",
+        "Hyperlipidemia",
+        "Hypertension",
+        "Insomnia",
+        "Osteoarthritis",
+        "Sleep Apnea",
+        "Thyroid",
+        "DISEASE_COUNT",
+    ]
+
     x.add_rows(data_list)
     csv_str = x.get_csv_string()
-    with open("patients_info.csv", "w", newline="") as f_output:
+    with open("patients_info_new.csv", "w", newline="") as f_output:
         f_output.write(csv_str)
 
 
 # ------------------------------------------------------------
 # print patients information with the latest condition sorted by their RID
-# patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)
+
+patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)
 
 # ------------------------------------------------------------
 
@@ -396,6 +463,6 @@ def cond_count(file):
 
 # print(cond_count(rid_with_cond))
 
-patients = pd.read_csv(adni_merge, low_memory=False)
-count = len(np.unique(patients["RID"]))
-print(count)
+# patients = pd.read_csv(adni_merge, low_memory=False)
+# count = len(np.unique(patients["RID"]))
+# print(count)

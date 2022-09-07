@@ -1,0 +1,2418 @@
+RID,CONDITION,AGE,GENDER,APOE4,EDUCATION,Anxiety,Arthritis,Cancer,Depression,Hearing,High Cholesterol,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,Thyroid,DISEASE_COUNT
+2,MCI,74.3,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+3,AD,81.3,Male,1.0,18,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,6
+4,MCI,67.5,Male,0.0,10,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+5,CN,73.7,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6,MCI,80.4,Female,0.0,13,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+7,AD,75.4,Male,1.0,10,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+8,MCI,84.5,Female,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+10,AD,73.9,Female,1.0,12,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+14,CN,78.5,Female,0.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+15,MCI,80.8,Male,1.0,18,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+16,CN,65.4,Male,1.0,9,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+19,CN,73.1,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+21,CN,72.6,Female,0.0,18,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,4
+22,MCI,63.2,Male,1.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+23,CN,71.7,Male,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,5
+29,AD,64.1,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+30,AD,80.0,Female,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+31,CN,77.7,Female,0.0,18,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+33,MCI,83.3,Male,0.0,20,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,Thyroid,4
+35,MCI,76.9,Male,0.0,18,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+38,MCI,76.8,Male,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+40,CN,73.2,Male,0.0,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+41,AD,70.9,Female,2.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+42,AD,72.8,Male,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+43,CN,76.2,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+44,MCI,85.8,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+45,AD,85.9,Male,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+47,CN,84.7,Male,0.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+48,CN,78.3,Male,2.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+50,AD,77.6,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+51,AD,66.5,Male,2.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+53,AD,80.1,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+54,AD,81.0,Female,0.0,20,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+55,MCI,75.5,Male,0.0,20,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+56,MCI,69.6,Female,0.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+57,AD,77.3,Male,1.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+58,CN,70.1,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+59,MCI,70.9,Female,0.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+60,MCI,70.0,Male,1.0,20,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,4
+61,AD,77.0,Female,0.0,15,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+66,CN,74.5,Male,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+67,CN,74.5,Male,0.0,17,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+68,CN,74.4,Female,0.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+69,MCI,72.9,Male,0.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+70,CN,74.0,Male,0.0,14,Anxiety,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+72,CN,70.6,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,2
+74,CN,78.2,Male,0.0,20,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,3
+76,AD,78.3,Male,1.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+77,AD,79.7,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+78,AD,76.0,Female,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+80,AD,85.0,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+81,CN,70.6,Male,1.0,18,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+83,AD,73.2,Male,2.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+84,AD,75.3,Female,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+86,CN,80.3,Female,0.0,18,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+87,MCI,75.1,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+88,AD,65.6,Male,2.0,8,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,3
+89,CN,65.1,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,3
+90,CN,69.8,Male,2.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+91,AD,62.4,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+93,AD,77.2,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+94,AD,70.7,Female,1.0,14,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+95,CN,71.1,Male,0.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+96,CN,79.6,Male,0.0,20,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,-,-,-,6
+97,CN,72.8,Female,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+98,AD,84.4,Female,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+101,AD,73.6,Male,2.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,Thyroid,3
+102,MCI,70.3,Female,1.0,20,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+103,MCI,87.3,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+106,AD,73.2,Female,0.0,15,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,6
+107,MCI,60.7,Female,0.0,19,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,Thyroid,6
+108,AD,78.2,Male,1.0,18,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,4
+109,AD,70.1,Female,1.0,16,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+110,AD,82.6,Female,0.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+111,AD,75.8,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+112,AD,70.6,Male,1.0,18,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+113,CN,75.2,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,-,Insomnia,-,-,-,3
+116,MCI,78.4,Male,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+118,CN,80.4,Male,0.0,20,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+120,CN,72.0,Male,1.0,20,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,-,Thyroid,7
+123,AD,73.3,Male,0.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+125,CN,73.7,Male,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+126,AD,77.5,Female,1.0,14,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,4
+127,MCI,70.6,Male,0.0,17,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,-,9
+128,AD,64.1,Female,2.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,3
+129,AD,80.2,Female,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+130,CN,73.1,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+135,AD,82.3,Female,0.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,Insomnia,-,Sleep Apnea,-,4
+138,MCI,86.3,Male,0.0,15,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,-,-,-,3
+139,AD,65.9,Female,2.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+141,AD,81.1,Male,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+142,AD,79.2,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+147,AD,59.7,Female,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+149,AD,87.7,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+150,AD,73.9,Male,0.0,12,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+155,AD,81.1,Male,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+156,MCI,74.1,Male,0.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+158,MCI,80.4,Female,0.0,13,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+159,CN,77.9,Female,0.0,17,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+160,AD,75.2,Male,1.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+161,AD,79.1,Male,1.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,4
+162,AD,71.8,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+166,AD,72.5,Female,1.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,-,-,-,-,-,3
+167,AD,76.4,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+168,MCI,89.3,Male,0.0,13,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+169,MCI,71.9,Female,1.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+171,MCI,78.3,Female,0.0,17,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+172,CN,70.6,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,3
+173,MCI,73.2,Male,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,4
+176,MCI,74.7,Male,1.0,19,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+177,CN,74.8,Female,0.0,14,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+178,MCI,64.8,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+179,AD,80.9,Male,1.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+182,AD,63.6,Female,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+183,AD,72.4,Female,1.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+184,CN,78.3,Female,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+186,CN,80.4,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+187,AD,77.1,Male,2.0,16,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+188,MCI,86.1,Male,1.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+190,AD,78.8,Male,1.0,18,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+194,AD,80.5,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+195,AD,79.6,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+196,CN,78.0,Female,0.0,18,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+200,MCI,61.4,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,-,Sleep Apnea,-,5
+204,AD,71.1,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+205,MCI,66.5,Female,0.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+210,MCI,72.4,Female,0.0,13,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+213,AD,62.9,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+214,AD,65.1,Male,2.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+216,AD,84.3,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+217,AD,83.6,Female,0.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+219,AD,74.4,Male,1.0,4,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,5
+221,AD,67.4,Male,2.0,18,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+222,AD,85.9,Male,0.0,18,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+223,AD,78.0,Female,1.0,18,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,5
+225,MCI,82.4,Female,0.0,17,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,-,-,-,6
+227,AD,79.6,Female,2.0,12,Anxiety,-,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,6
+228,AD,80.2,Female,0.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+229,MCI,74.4,Female,1.0,16,-,Arthritis,Cancer,Depression,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,10
+230,AD,80.0,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+231,AD,60.3,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+232,MCI,78.0,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,4
+240,AD,88.3,Male,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+241,AD,81.8,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+243,AD,68.0,Female,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+245,CN,73.8,Female,0.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+249,AD,72.0,Female,1.0,16,Anxiety,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,7
+256,AD,70.1,Male,2.0,20,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,5
+257,CN,78.5,Female,1.0,6,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+258,AD,71.3,Female,1.0,14,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+259,AD,70.6,Male,0.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+260,CN,78.6,Female,0.0,13,-,Arthritis,Cancer,-,Hearing,-,-,-,-,Insomnia,-,-,Thyroid,5
+262,CN,85.8,Male,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+266,AD,85.5,Male,1.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+269,AD,67.1,Male,1.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+272,CN,70.4,Female,0.0,19,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,5
+273,MCI,62.8,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+276,AD,70.9,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+282,MCI,72.1,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+283,CN,78.4,Male,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+284,MCI,76.8,Female,1.0,10,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+285,AD,65.6,Male,1.0,10,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+286,AD,65.9,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+288,MCI,75.1,Male,1.0,20,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+289,AD,67.7,Male,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+290,MCI,75.2,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+291,MCI,79.4,Male,1.0,16,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+292,AD,76.4,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+293,AD,87.7,Male,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+294,AD,79.2,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+295,CN,84.8,Male,1.0,18,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+296,MCI,79.1,Male,0.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+298,CN,76.4,Male,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,3
+299,AD,89.1,Female,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+300,AD,56.4,Male,2.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+301,CN,73.4,Female,0.0,13,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+303,CN,84.2,Male,1.0,16,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+304,CN,70.8,Female,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+307,MCI,78.5,Male,0.0,19,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,Insomnia,-,Sleep Apnea,Thyroid,7
+310,AD,82.7,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+311,CN,78.1,Female,1.0,16,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+312,CN,82.8,Male,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+314,AD,72.1,Male,1.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+315,CN,71.5,Male,0.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+316,AD,80.9,Male,2.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+319,CN,70.2,Female,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+321,AD,68.3,Male,2.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+324,MCI,75.3,Female,0.0,14,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,Thyroid,5
+325,AD,70.6,Female,1.0,18,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+326,AD,76.9,Male,0.0,16,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+327,CN,70.0,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+328,AD,76.6,Male,1.0,17,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+331,AD,64.6,Female,2.0,14,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+332,AD,69.9,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+335,AD,83.4,Female,0.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+336,AD,76.1,Male,1.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+337,CN,75.8,Male,1.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+339,MCI,86.0,Male,0.0,14,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+341,AD,74.0,Male,2.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+343,AD,71.8,Male,1.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+344,AD,78.8,Male,2.0,13,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+351,MCI,68.4,Male,0.0,18,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+352,CN,77.0,Female,0.0,14,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,Insomnia,-,-,-,5
+354,MCI,75.8,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+356,AD,80.2,Male,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+359,CN,81.3,Female,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+360,CN,73.1,Male,0.0,18,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+361,AD,74.5,Male,1.0,17,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+362,AD,70.5,Female,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+363,MCI,71.6,Female,1.0,17,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+366,AD,56.5,Female,0.0,20,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+369,CN,76.0,Male,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+370,AD,74.5,Female,0.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+372,AD,79.0,Male,0.0,20,-,-,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+374,AD,75.9,Female,1.0,15,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+376,AD,70.5,Male,0.0,15,-,-,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,2
+377,MCI,79.3,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,2
+378,AD,69.0,Female,1.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+382,CN,75.5,Female,0.0,20,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+384,MCI,79.8,Male,0.0,14,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+386,CN,72.3,Female,1.0,13,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+388,AD,71.2,Male,2.0,15,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,2
+389,AD,71.5,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+390,AD,80.4,Male,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+392,AD,84.6,Female,2.0,17,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+393,MCI,86.2,Female,0.0,16,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,Insomnia,-,-,Thyroid,6
+394,AD,84.0,Female,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+397,MCI,74.6,Male,1.0,14,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+400,AD,69.2,Male,0.0,18,-,-,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+401,MCI,63.9,Male,1.0,17,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+403,CN,76.3,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+404,AD,87.8,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+405,CN,76.1,Male,0.0,7,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+406,AD,77.8,Male,1.0,11,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+407,MCI,73.5,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+408,AD,82.2,Male,0.0,20,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+409,MCI,79.1,Male,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+410,MCI,61.3,Female,1.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+413,CN,76.3,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,Insomnia,Osteoarthritis,-,Thyroid,4
+414,MCI,79.6,Female,1.0,18,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+416,AD,75.6,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,Thyroid,6
+417,MCI,79.8,Male,1.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+419,CN,70.2,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+420,MCI,73.4,Male,0.0,19,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+422,MCI,61.6,Male,0.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+423,AD,79.3,Male,1.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+424,AD,80.6,Male,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,2
+425,CN,85.8,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+426,AD,79.6,Male,1.0,16,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,3
+429,AD,62.7,Male,0.0,12,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,2
+431,AD,84.0,Male,1.0,12,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+433,CN,85.5,Female,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+434,AD,71.7,Male,1.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+436,CN,85.0,Male,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+438,AD,81.9,Male,0.0,11,-,-,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,Thyroid,5
+441,CN,72.7,Female,0.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+442,AD,74.7,Male,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+443,MCI,63.0,Male,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+445,MCI,54.4,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+446,MCI,88.8,Male,0.0,11,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+448,AD,85.5,Male,0.0,17,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+449,MCI,66.5,Female,2.0,14,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+450,AD,68.4,Male,1.0,20,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+454,MCI,81.8,Female,0.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+457,AD,82.7,Female,1.0,12,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,5
+458,MCI,82.9,Female,1.0,11,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+459,MCI,72.9,Male,0.0,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,6
+461,AD,80.3,Male,1.0,19,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+464,MCI,83.1,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+467,AD,81.1,Female,0.0,12,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,3
+469,MCI,78.4,Female,0.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+470,AD,86.6,Female,1.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+472,CN,72.0,Male,0.0,20,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+473,CN,72.6,Male,1.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+474,AD,77.3,Female,2.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+476,AD,75.8,Female,1.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+478,MCI,56.1,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,2
+479,CN,73.5,Female,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+481,MCI,84.8,Male,1.0,18,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+484,CN,70.7,Male,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+485,MCI,64.4,Male,2.0,16,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+487,AD,76.4,Male,1.0,20,Anxiety,-,-,-,Hearing,-,-,-,Hypertension,Insomnia,-,-,Thyroid,5
+488,CN,70.9,Female,0.0,16,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+489,CN,73.9,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+492,AD,87.3,Male,1.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,5
+493,CN,77.5,Male,0.0,20,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+497,AD,75.7,Male,2.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+498,CN,70.3,Male,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+500,CN,77.4,Male,0.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+501,AD,77.9,Male,0.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+502,CN,74.9,Male,0.0,18,Anxiety,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,4
+505,MCI,79.7,Male,0.0,16,-,-,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,5
+506,CN,71.4,Female,0.0,10,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+507,AD,55.2,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+511,AD,57.7,Male,0.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+513,AD,68.9,Male,2.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+514,AD,80.7,Male,0.0,20,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+516,CN,87.6,Male,0.0,15,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+517,AD,81.8,Male,0.0,20,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+518,AD,69.4,Male,2.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+519,CN,74.1,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+520,MCI,77.7,Female,2.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,Sleep Apnea,-,5
+522,MCI,69.9,Male,0.0,17,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+525,CN,70.0,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+526,CN,85.1,Female,0.0,7,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+528,AD,70.8,Female,0.0,13,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+531,MCI,74.3,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+533,CN,81.0,Female,0.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+534,CN,62.8,Male,1.0,18,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+535,AD,76.8,Male,1.0,15,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+538,CN,82.7,Male,0.0,16,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+539,AD,73.4,Male,1.0,20,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+543,AD,72.2,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+544,MCI,76.7,Female,0.0,12,Anxiety,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,6
+545,MCI,71.8,Male,0.0,19,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+546,MCI,79.4,Male,1.0,16,-,-,Cancer,-,Hearing,-,-,-,Hypertension,Insomnia,-,-,-,4
+547,AD,75.6,Male,0.0,12,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+548,AD,73.6,Female,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+549,AD,68.7,Male,1.0,14,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+551,MCI,64.2,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+552,AD,60.1,Female,1.0,19,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+553,CN,84.6,Male,0.0,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,7
+554,AD,71.6,Male,1.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+555,AD,77.0,Male,1.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+557,MCI,72.0,Male,1.0,20,-,-,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,4
+558,AD,79.8,Male,0.0,19,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,5
+559,CN,79.3,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+563,AD,80.6,Male,0.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+565,AD,74.6,Male,2.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+566,AD,78.8,Male,1.0,20,-,-,Cancer,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,4
+567,AD,73.6,Male,1.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+568,AD,79.8,Female,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,3
+572,AD,78.7,Male,2.0,14,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,-,7
+575,CN,86.2,Female,0.0,17,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+576,CN,77.5,Male,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+577,AD,72.4,Female,2.0,12,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+578,CN,77.0,Female,0.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+579,MCI,65.4,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+588,AD,64.6,Male,2.0,14,Anxiety,-,-,-,Hearing,-,-,-,-,-,-,-,-,2
+590,MCI,78.1,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+592,AD,77.9,Male,1.0,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+598,MCI,72.3,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+601,CN,76.6,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+602,MCI,70.7,Male,0.0,17,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+604,AD,86.5,Male,0.0,14,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+605,AD,75.6,Female,1.0,16,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+606,AD,68.5,Female,2.0,10,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+607,MCI,78.0,Female,1.0,14,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+608,MCI,68.4,Female,0.0,20,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+610,CN,79.0,Male,0.0,20,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+611,AD,71.9,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+613,MCI,84.0,Female,0.0,11,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+618,CN,74.8,Male,1.0,16,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,Thyroid,5
+619,AD,77.5,Male,2.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+621,MCI,62.3,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+622,MCI,74.5,Female,1.0,15,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+625,AD,75.9,Male,0.0,6,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+626,AD,83.2,Male,0.0,16,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+627,AD,58.4,Female,2.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+629,MCI,70.8,Male,2.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+631,AD,77.1,Male,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+633,AD,83.3,Male,1.0,11,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+634,MCI,82.1,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+637,CN,76.1,Female,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+638,AD,83.1,Male,2.0,17,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+640,CN,72.9,Female,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+641,AD,74.4,Male,1.0,14,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,4
+642,AD,84.5,Male,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+643,CN,71.4,Female,2.0,15,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+644,MCI,75.0,Male,0.0,14,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,Sleep Apnea,-,6
+647,CN,72.8,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+648,CN,71.5,Female,0.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+649,AD,86.7,Male,1.0,20,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+653,AD,73.4,Female,2.0,12,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+656,MCI,82.5,Male,1.0,13,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+657,CN,77.7,Female,0.0,13,-,Arthritis,Cancer,-,Hearing,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+658,AD,72.1,Male,0.0,18,-,-,-,Depression,Hearing,-,-,-,-,-,-,-,Thyroid,3
+667,AD,69.0,Male,1.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+668,MCI,73.5,Male,0.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+669,MCI,63.6,Male,1.0,13,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+671,AD,61.0,Female,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+672,CN,62.0,Female,0.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+673,MCI,78.2,Male,2.0,16,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+675,AD,78.8,Female,0.0,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+677,CN,70.8,Male,0.0,18,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,Osteoarthritis,-,Thyroid,5
+679,MCI,62.9,Male,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,3
+680,MCI,77.8,Male,0.0,8,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+681,CN,76.8,Female,1.0,19,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,8
+682,AD,68.0,Male,1.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+684,MCI,77.4,Female,0.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+685,CN,89.6,Female,0.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+686,CN,72.0,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+689,AD,63.6,Male,2.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+690,AD,79.6,Male,1.0,20,-,-,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,3
+691,AD,64.3,Male,1.0,16,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+692,CN,76.7,Female,1.0,19,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+695,AD,74.3,Male,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+696,AD,74.0,Female,1.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+697,AD,86.8,Male,0.0,17,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+698,AD,74.3,Male,1.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+699,AD,82.0,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+702,AD,85.0,Male,1.0,16,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,7
+708,AD,76.4,Male,1.0,16,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+709,MCI,83.8,Male,1.0,8,Anxiety,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,3
+711,CN,77.3,Male,0.0,18,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+712,AD,76.6,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+715,MCI,80.0,Female,0.0,13,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+717,MCI,76.0,Male,0.0,12,Anxiety,-,Cancer,Depression,Hearing,-,-,-,Hypertension,-,-,Sleep Apnea,-,6
+718,MCI,80.4,Female,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+720,AD,77.4,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+721,MCI,66.3,Male,2.0,20,-,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,3
+722,MCI,70.1,Male,0.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+723,AD,79.1,Male,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+724,AD,78.6,Male,0.0,20,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+725,AD,80.9,Male,1.0,20,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+726,CN,81.0,Male,1.0,17,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+727,AD,69.2,Female,2.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+729,AD,65.1,Female,1.0,16,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+730,AD,70.6,Female,1.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+731,CN,71.5,Male,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+733,AD,57.1,Female,2.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+734,CN,72.6,Male,0.0,18,-,-,Cancer,Depression,Hearing,-,-,-,-,-,-,-,Thyroid,4
+739,MCI,82.8,Male,1.0,15,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+740,AD,72.2,Male,1.0,15,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+741,MCI,80.3,Female,1.0,18,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,5
+743,AD,85.6,Male,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+746,MCI,73.8,Female,0.0,18,-,-,-,Depression,Hearing,-,-,-,-,-,-,-,-,2
+747,AD,72.6,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+748,MCI,79.6,Male,1.0,16,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+750,AD,75.6,Female,1.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+751,MCI,70.9,Male,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+752,AD,82.0,Female,1.0,16,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,7
+753,AD,65.5,Male,2.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+754,AD,67.7,Female,1.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+759,AD,81.8,Female,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+760,AD,69.4,Female,1.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+761,CN,71.0,Male,0.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+767,CN,73.0,Female,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,-,-,Thyroid,6
+768,CN,77.3,Male,1.0,14,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+769,AD,62.2,Male,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+770,MCI,71.2,Male,0.0,19,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+771,MCI,74.1,Female,0.0,19,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+777,AD,75.1,Female,0.0,7,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+778,AD,72.4,Male,1.0,13,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+779,MCI,79.5,Male,1.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+782,MCI,81.6,Male,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+783,MCI,79.2,Female,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+784,AD,75.8,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,6
+786,AD,74.5,Male,0.0,19,Anxiety,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,3
+790,AD,83.3,Female,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+792,MCI,73.5,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+793,AD,68.9,Male,1.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+796,AD,80.3,Male,0.0,14,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+800,MCI,74.0,Male,2.0,12,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,-,-,-,3
+802,MCI,80.9,Female,0.0,8,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,7
+803,AD,84.7,Female,0.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+810,CN,83.3,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+812,AD,71.5,Female,2.0,14,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+813,CN,72.7,Male,0.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+814,AD,71.0,Female,1.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+816,AD,70.8,Male,2.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+818,CN,74.0,Female,0.0,10,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,4
+821,MCI,79.2,Male,1.0,14,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+824,CN,76.2,Female,0.0,13,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+825,MCI,87.0,Male,0.0,12,-,-,-,Depression,Hearing,-,-,-,-,Insomnia,-,-,-,3
+828,AD,77.4,Female,1.0,16,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,-,3
+829,AD,64.9,Female,2.0,15,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+830,AD,70.8,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+832,AD,79.0,Male,1.0,19,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,6
+834,AD,63.9,Male,1.0,13,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+835,AD,72.7,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+836,AD,83.1,Male,1.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+839,AD,79.4,Female,0.0,9,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+841,AD,77.0,Female,1.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+842,MCI,73.6,Male,1.0,18,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,-,3
+843,AD,70.5,Male,0.0,16,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+844,AD,85.3,Female,0.0,12,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+845,CN,80.3,Male,1.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+850,AD,78.1,Male,1.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+851,MCI,72.5,Female,1.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+852,AD,84.3,Female,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+853,AD,86.8,Male,2.0,16,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+855,AD,75.6,Male,0.0,12,-,Arthritis,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,2
+856,AD,60.3,Male,1.0,13,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+860,AD,85.2,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+861,AD,87.1,Male,2.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+862,CN,73.4,Female,1.0,12,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+863,CN,79.1,Male,0.0,15,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,-,-,-,-,Thyroid,5
+865,AD,73.5,Male,1.0,10,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+866,CN,80.0,Female,0.0,13,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+867,MCI,71.8,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+869,AD,82.9,Female,1.0,16,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,-,Thyroid,6
+871,MCI,68.4,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+872,AD,69.6,Male,0.0,17,-,-,Cancer,Depression,Hearing,-,Hypercholesterolemia,Hyperlipidemia,-,Insomnia,-,-,Thyroid,7
+873,AD,78.1,Female,1.0,14,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+874,AD,66.1,Female,2.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+876,CN,76.1,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+878,AD,72.3,Male,1.0,14,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+880,MCI,84.2,Male,0.0,13,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+883,MCI,76.1,Female,1.0,16,Anxiety,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+884,AD,79.0,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+886,CN,71.3,Female,0.0,15,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+887,AD,73.7,Female,1.0,8,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,4
+889,AD,72.5,Female,1.0,16,-,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,3
+890,MCI,59.7,Female,2.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+891,AD,79.3,Female,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+892,AD,72.8,Female,1.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+896,AD,76.8,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+898,AD,83.1,Female,0.0,12,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+899,MCI,80.1,Female,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+904,AD,84.1,Male,0.0,16,-,Arthritis,Cancer,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+906,AD,65.3,Female,1.0,12,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+907,CN,88.6,Female,0.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+908,MCI,62.9,Female,0.0,16,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+909,AD,69.1,Female,1.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+912,MCI,73.9,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+913,AD,56.6,Female,0.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+914,AD,74.4,Male,1.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+915,AD,80.6,Female,1.0,14,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+916,AD,79.7,Male,2.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+917,MCI,70.2,Male,0.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+919,MCI,62.4,Male,1.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,2
+920,AD,80.0,Female,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+921,MCI,71.4,Male,1.0,19,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+922,AD,68.1,Male,1.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+923,CN,83.1,Male,0.0,14,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+924,MCI,69.6,Male,1.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+925,AD,74.4,Male,0.0,12,-,Arthritis,Cancer,-,-,-,-,-,-,Insomnia,-,-,-,3
+926,MCI,71.4,Female,0.0,16,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+928,MCI,82.8,Female,0.0,20,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,5
+929,AD,82.0,Male,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+930,AD,75.0,Male,1.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+931,CN,86.1,Female,0.0,14,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,Insomnia,-,-,Thyroid,5
+932,MCI,75.3,Male,0.0,16,-,-,-,Depression,Hearing,-,-,-,-,-,-,Sleep Apnea,Thyroid,4
+934,CN,70.0,Female,0.0,10,-,Arthritis,-,-,-,-,-,-,-,Insomnia,-,-,-,2
+938,AD,82.2,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+941,AD,73.3,Female,2.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+945,AD,72.4,Male,0.0,12,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,5
+947,AD,82.6,Female,1.0,13,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+950,MCI,73.5,Male,0.0,17,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+951,CN,84.8,Male,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+952,AD,81.7,Female,1.0,13,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,4
+954,AD,69.3,Female,1.0,14,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+955,AD,78.2,Female,1.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+956,AD,63.8,Female,0.0,7,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,4
+957,MCI,74.0,Male,1.0,9,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+958,MCI,64.3,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+961,MCI,72.8,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+963,CN,72.6,Male,1.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+967,CN,76.8,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+969,CN,70.0,Male,0.0,18,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,6
+972,AD,77.9,Male,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+973,AD,76.8,Male,0.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+976,AD,80.5,Male,0.0,15,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,4
+978,AD,73.1,Male,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+979,AD,86.2,Male,1.0,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+981,CN,84.3,Female,0.0,16,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,-,5
+982,AD,80.2,Female,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+984,AD,76.6,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,2
+985,AD,81.6,Male,1.0,14,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+987,AD,79.1,Female,2.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+989,MCI,64.3,Female,1.0,13,-,Arthritis,-,Depression,-,-,-,-,-,Insomnia,-,-,Thyroid,4
+991,AD,86.3,Female,0.0,10,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+994,AD,55.1,Female,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+995,AD,78.5,Female,1.0,12,-,-,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+996,AD,90.9,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+997,AD,80.4,Female,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+999,AD,70.8,Male,0.0,12,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1001,AD,69.3,Male,1.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+1002,CN,76.3,Female,0.0,18,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+1004,AD,73.9,Female,1.0,12,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+1007,AD,72.3,Male,0.0,17,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+1009,MCI,75.8,Male,2.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+1010,AD,74.2,Male,1.0,20,Anxiety,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,6
+1013,CN,77.8,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+1014,CN,84.7,Female,0.0,15,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+1015,AD,58.7,Male,0.0,18,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+1016,CN,78.3,Female,0.0,13,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+1018,AD,70.7,Female,0.0,13,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+1021,CN,86.9,Female,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1023,CN,77.1,Female,1.0,18,-,-,-,Depression,Hearing,-,-,-,-,-,-,-,-,2
+1024,AD,68.6,Male,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1027,AD,69.1,Female,2.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+1028,MCI,76.9,Female,1.0,7,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+1030,AD,67.4,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+1031,MCI,77.1,Female,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+1032,AD,84.7,Male,1.0,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+1033,AD,73.3,Female,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1034,MCI,75.1,Male,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1035,CN,87.2,Male,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+1037,AD,73.7,Male,2.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1038,MCI,83.2,Male,1.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+1040,MCI,71.4,Male,0.0,11,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1041,AD,70.9,Male,2.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+1043,AD,68.5,Male,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1044,AD,65.6,Male,1.0,13,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+1045,MCI,82.6,Female,0.0,14,-,Arthritis,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,3
+1046,MCI,71.6,Male,1.0,20,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,Sleep Apnea,-,5
+1051,MCI,75.2,Female,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1052,MCI,69.0,Female,1.0,8,Anxiety,Arthritis,-,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,7
+1054,AD,69.9,Male,1.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1055,AD,84.6,Male,1.0,15,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+1056,AD,71.1,Female,0.0,13,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+1057,AD,61.2,Female,2.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+1059,AD,84.5,Female,0.0,18,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+1062,AD,81.9,Male,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+1063,MCI,78.4,Female,1.0,19,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,5
+1066,AD,72.4,Male,2.0,13,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,5
+1070,AD,73.6,Male,0.0,14,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+1072,MCI,59.8,Female,0.0,13,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+1073,AD,65.7,Female,1.0,18,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+1074,AD,85.0,Female,0.0,15,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1075,MCI,67.1,Male,1.0,18,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+1077,AD,83.3,Male,0.0,15,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+1078,AD,70.6,Male,2.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1079,AD,78.0,Male,1.0,18,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+1080,AD,81.4,Male,0.0,19,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+1081,AD,84.5,Male,1.0,20,Anxiety,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,4
+1082,AD,69.5,Female,2.0,13,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+1083,AD,71.9,Female,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+1086,CN,81.4,Male,1.0,20,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+1088,MCI,87.9,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1090,AD,71.3,Male,2.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+1092,MCI,74.3,Male,2.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1094,CN,76.0,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+1095,AD,80.3,Female,1.0,12,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+1097,AD,73.0,Male,0.0,18,Anxiety,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,3
+1098,AD,72.0,Female,1.0,15,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+1099,CN,79.2,Female,1.0,15,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1101,AD,70.9,Female,1.0,12,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+1102,AD,72.8,Female,2.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+1103,MCI,83.0,Male,0.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+1104,MCI,64.5,Female,2.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+1106,AD,74.0,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,Thyroid,5
+1109,AD,77.8,Female,1.0,17,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+1113,AD,79.2,Female,0.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+1114,MCI,78.3,Female,0.0,12,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+1116,AD,83.4,Male,2.0,18,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+1117,AD,68.9,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1118,MCI,82.5,Male,0.0,12,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+1119,MCI,76.4,Male,0.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+1120,MCI,77.9,Female,0.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,3
+1121,AD,56.2,Female,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+1122,MCI,76.6,Female,0.0,14,-,-,-,-,Hearing,-,-,-,-,Insomnia,-,-,Thyroid,3
+1123,AD,75.8,Female,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1126,AD,80.4,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1130,AD,71.1,Female,1.0,18,Anxiety,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,4
+1131,MCI,86.4,Male,0.0,7,-,-,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+1133,CN,79.9,Female,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1135,AD,75.6,Male,1.0,14,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+1137,AD,81.5,Female,0.0,18,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+1138,AD,67.4,Male,2.0,12,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+1140,MCI,84.4,Male,0.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+1144,AD,77.4,Male,1.0,13,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1148,AD,69.7,Female,2.0,14,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+1149,MCI,84.3,Male,0.0,20,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+1152,AD,71.4,Female,1.0,8,-,-,Cancer,Depression,Hearing,-,-,-,-,-,-,-,-,3
+1154,AD,76.6,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+1155,MCI,57.8,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1157,AD,84.9,Female,1.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+1161,AD,79.8,Male,0.0,16,-,-,-,-,Hearing,-,-,-,Hypertension,Insomnia,-,-,-,3
+1164,AD,69.5,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,5
+1165,MCI,81.4,Male,1.0,19,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+1168,MCI,81.2,Female,0.0,16,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+1169,MCI,72.2,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,3
+1170,AD,72.9,Male,1.0,13,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+1171,AD,71.5,Male,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+1175,MCI,72.7,Male,0.0,13,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,5
+1182,MCI,76.0,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1183,MCI,80.2,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+1184,AD,64.4,Female,0.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+1185,AD,62.0,Male,1.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+1186,AD,83.2,Male,0.0,12,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+1187,MCI,76.4,Male,1.0,12,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+1188,MCI,81.2,Female,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1190,AD,76.5,Female,0.0,13,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+1191,CN,78.8,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1192,AD,69.6,Female,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1194,MCI,84.8,Male,0.0,18,Anxiety,Arthritis,Cancer,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,Thyroid,7
+1195,CN,76.9,Male,0.0,20,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+1197,CN,82.4,Female,0.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+1199,MCI,58.4,Male,0.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1200,MCI,84.4,Male,0.0,16,-,-,-,Depression,Hearing,-,-,-,-,Insomnia,-,-,Thyroid,4
+1201,AD,75.5,Female,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+1202,MCI,77.5,Male,0.0,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1203,MCI,83.3,Male,0.0,15,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,4
+1204,MCI,77.3,Male,2.0,17,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+1205,AD,83.0,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+1206,CN,72.9,Male,0.0,14,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+1209,AD,72.0,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1210,MCI,74.2,Male,0.0,17,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+1211,MCI,86.7,Male,0.0,14,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+1212,CN,75.3,Female,0.0,17,-,Arthritis,-,-,-,-,-,-,Hypertension,Insomnia,-,-,Thyroid,4
+1213,AD,74.8,Female,1.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1215,MCI,78.5,Male,0.0,16,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+1217,AD,67.8,Female,2.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+1218,MCI,85.4,Female,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+1221,AD,71.2,Male,1.0,6,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+1222,CN,73.4,Female,0.0,16,Anxiety,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+1224,AD,81.1,Male,0.0,16,Anxiety,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,6
+1225,AD,76.4,Male,0.0,20,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,-,-,-,3
+1226,AD,82.6,Male,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+1227,MCI,64.6,Female,0.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1231,MCI,83.5,Female,1.0,12,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+1232,CN,72.1,Female,0.0,14,-,Arthritis,Cancer,Depression,-,-,-,-,-,Insomnia,Osteoarthritis,-,-,5
+1240,AD,67.0,Female,2.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+1241,MCI,72.1,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+1242,CN,71.1,Female,0.0,19,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+1243,AD,77.3,Male,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+1244,AD,78.9,Male,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,4
+1245,MCI,71.3,Female,0.0,14,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,4
+1246,MCI,72.4,Male,1.0,14,-,Arthritis,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,6
+1247,AD,72.5,Female,0.0,9,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+1248,AD,79.8,Female,0.0,12,Anxiety,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,4
+1249,AD,70.8,Female,1.0,15,-,-,Cancer,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+1250,CN,73.2,Female,0.0,10,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1251,CN,74.2,Female,0.0,13,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+1253,AD,62.6,Female,0.0,14,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+1254,AD,84.3,Male,0.0,11,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1255,AD,76.4,Female,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,4
+1256,CN,71.6,Female,1.0,17,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,3
+1257,AD,84.9,Male,1.0,18,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,Thyroid,4
+1260,MCI,71.2,Male,0.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+1261,MCI,71.1,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+1262,AD,72.7,Female,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+1263,AD,64.8,Female,1.0,12,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,Thyroid,6
+1265,AD,82.2,Female,1.0,8,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+1267,CN,73.2,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1268,AD,82.7,Male,1.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+1269,MCI,73.4,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+1271,AD,71.2,Male,1.0,16,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,Thyroid,6
+1275,MCI,78.9,Female,2.0,20,-,-,Cancer,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,3
+1276,CN,71.8,Female,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1277,MCI,86.3,Male,1.0,11,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+1279,MCI,68.3,Female,2.0,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,5
+1280,CN,70.7,Female,1.0,14,Anxiety,-,Cancer,Depression,-,-,-,-,Hypertension,Insomnia,-,-,-,5
+1281,AD,77.6,Female,2.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1282,AD,77.0,Female,0.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1283,AD,59.9,Male,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+1284,MCI,85.9,Male,1.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1285,AD,80.0,Female,1.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1286,CN,75.5,Female,0.0,19,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+1288,CN,59.9,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+1289,AD,77.4,Female,1.0,12,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1290,AD,79.3,Female,1.0,8,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+1292,AD,76.2,Male,0.0,16,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+1293,MCI,77.1,Male,2.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+1294,MCI,79.2,Male,1.0,10,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+1295,AD,76.7,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1296,AD,76.9,Male,2.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1299,AD,71.8,Male,0.0,14,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+1300,MCI,73.4,Female,0.0,12,Anxiety,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,7
+1301,CN,72.1,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+1304,AD,74.7,Female,1.0,8,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+1306,CN,74.5,Female,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1307,AD,75.3,Female,1.0,13,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+1308,AD,79.7,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1309,MCI,69.1,Female,2.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1311,AD,69.1,Male,2.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1314,MCI,80.7,Female,0.0,16,-,Arthritis,Cancer,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+1315,AD,83.3,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+1318,AD,82.9,Female,0.0,18,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+1321,MCI,83.2,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1322,MCI,71.7,Female,2.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+1326,AD,66.3,Male,1.0,18,-,-,Cancer,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,3
+1330,MCI,61.7,Male,1.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+1331,AD,76.5,Female,0.0,11,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+1334,AD,64.2,Male,1.0,15,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+1337,AD,71.4,Male,0.0,16,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+1338,MCI,84.2,Male,0.0,13,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+1339,AD,79.5,Female,0.0,13,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+1340,MCI,82.4,Female,1.0,20,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,-,5
+1341,AD,71.6,Female,1.0,12,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+1343,MCI,64.7,Male,1.0,13,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1346,AD,72.6,Male,1.0,12,-,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,6
+1350,AD,71.6,Female,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,3
+1351,AD,71.8,Female,2.0,12,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,-,Thyroid,7
+1352,MCI,85.9,Male,0.0,16,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+1354,AD,58.9,Female,2.0,16,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+1357,MCI,70.6,Male,1.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1363,AD,69.7,Female,1.0,12,-,-,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+1366,MCI,73.6,Male,0.0,4,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,4
+1368,AD,75.2,Female,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+1371,AD,84.2,Male,1.0,10,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+1373,AD,75.4,Male,1.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+1377,AD,82.6,Male,2.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+1378,MCI,61.8,Female,1.0,16,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,6
+1379,AD,87.7,Male,0.0,8,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+1380,MCI,84.7,Male,0.0,12,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+1382,AD,64.3,Male,0.0,16,Anxiety,-,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,5
+1384,MCI,72.0,Male,2.0,16,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+1385,AD,69.5,Female,2.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1387,AD,85.6,Male,1.0,20,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+1389,AD,76.1,Male,1.0,18,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+1391,AD,85.1,Male,0.0,12,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,3
+1393,AD,82.5,Male,0.0,18,Anxiety,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+1394,AD,77.1,Male,1.0,18,Anxiety,-,-,-,Hearing,-,-,-,-,-,-,-,-,2
+1397,AD,55.1,Female,0.0,18,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+1398,AD,77.6,Female,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1400,MCI,77.9,Male,0.0,12,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,5
+1402,AD,69.3,Male,0.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+1406,AD,61.1,Female,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+1407,AD,74.6,Female,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+1408,MCI,71.4,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+1409,AD,65.9,Male,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1411,MCI,74.1,Male,0.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+1412,AD,59.4,Male,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+1414,MCI,74.3,Male,1.0,18,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+1417,MCI,63.1,Male,0.0,12,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+1418,MCI,81.5,Male,0.0,12,-,-,Cancer,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+1419,MCI,77.9,Male,1.0,17,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+1420,MCI,81.3,Female,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+1421,MCI,74.4,Female,1.0,12,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+1423,AD,69.4,Male,1.0,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+1425,AD,75.6,Female,0.0,16,Anxiety,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,6
+1426,MCI,83.4,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+1427,AD,69.6,Female,0.0,12,Anxiety,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,7
+1430,AD,83.4,Female,1.0,12,-,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,3
+1435,AD,82.4,Male,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+2002,MCI,64.8,Male,0.0,16,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,7
+2003,MCI,63.6,Female,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+2007,AD,83.4,Female,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+2010,MCI,62.9,Female,1.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2011,MCI,69.9,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,4
+2018,MCI,76.4,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+2022,MCI,66.0,Male,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+2026,MCI,82.5,Female,0.0,14,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,6
+2027,MCI,61.9,Female,0.0,14,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,4
+2031,MCI,72.5,Male,0.0,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,6
+2036,MCI,66.7,Female,0.0,14,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+2037,MCI,75.8,Male,1.0,16,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+2042,MCI,69.5,Male,0.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+2043,MCI,72.2,Female,1.0,20,-,-,Cancer,-,Hearing,-,-,-,-,Insomnia,-,-,Thyroid,4
+2045,MCI,72.3,Male,1.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,5
+2047,AD,77.4,Male,1.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+2052,MCI,73.1,Male,0.0,20,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+2055,MCI,75.2,Male,1.0,18,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,2
+2057,MCI,64.2,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2058,MCI,83.9,Female,1.0,12,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+2060,MCI,73.9,Female,0.0,13,Anxiety,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,6
+2061,MCI,66.0,Female,0.0,16,Anxiety,Arthritis,-,Depression,-,-,-,-,-,Insomnia,Osteoarthritis,-,-,5
+2063,MCI,68.3,Male,1.0,16,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+2068,MCI,83.1,Male,1.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+2070,MCI,57.0,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+2071,-,57.0,Female,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+2072,MCI,72.8,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+2073,MCI,63.4,Female,0.0,20,-,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+2074,MCI,62.0,Male,1.0,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,5
+2077,MCI,81.0,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,4
+2079,MCI,65.5,Male,0.0,13,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+2083,MCI,88.3,Female,0.0,12,-,-,Cancer,-,Hearing,-,-,-,Hypertension,Insomnia,-,-,Thyroid,5
+2087,AD,69.5,Male,1.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,6
+2093,MCI,59.5,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+2099,MCI,83.7,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,Thyroid,4
+2100,MCI,87.8,Female,0.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+2106,AD,77.5,Male,0.0,12,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,Thyroid,5
+2109,MCI,75.2,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2116,MCI,61.6,Male,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2119,MCI,71.7,Male,0.0,12,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,4
+2121,MCI,67.8,Female,1.0,14,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,5
+2123,MCI,63.9,Female,0.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+2124,MCI,82.3,Female,0.0,15,-,Arthritis,Cancer,Depression,-,-,-,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,Thyroid,7
+2125,MCI,78.1,Female,0.0,17,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+2130,AD,76.4,Male,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,4
+2133,AD,62.5,Female,2.0,18,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+2138,MCI,81.6,Male,1.0,13,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+2142,MCI,82.7,Female,0.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+2146,MCI,66.3,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,Sleep Apnea,-,3
+2148,MCI,67.8,Female,0.0,14,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+2150,MCI,72.7,Male,1.0,14,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+2151,MCI,70.6,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+2153,MCI,76.6,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2155,MCI,68.9,Female,2.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+2164,MCI,70.9,Female,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+2167,MCI,80.7,Male,0.0,18,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+2168,MCI,71.3,Male,0.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+2171,MCI,65.3,Female,1.0,10,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+2180,MCI,77.6,Female,0.0,12,-,Arthritis,-,Depression,-,-,-,-,-,Insomnia,-,-,Thyroid,4
+2182,MCI,65.5,Male,0.0,20,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+2183,MCI,83.0,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+2184,MCI,80.4,Female,1.0,16,Anxiety,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,7
+2185,AD,73.0,Male,0.0,17,-,-,Cancer,Depression,Hearing,-,-,-,-,-,-,-,-,3
+2187,MCI,57.7,Female,1.0,13,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,-,8
+2190,MCI,82.4,Male,0.0,20,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+2191,MCI,66.7,Female,0.0,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,Thyroid,5
+2193,MCI,75.5,Male,0.0,19,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,-,8
+2194,MCI,71.0,Female,1.0,14,Anxiety,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+2195,AD,68.0,Male,2.0,13,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+2196,MCI,68.2,Female,1.0,14,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+2199,MCI,83.2,Male,0.0,12,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,3
+2200,MCI,76.0,Female,0.0,14,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,Thyroid,4
+2201,CN,63.7,Female,0.0,18,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+2205,MCI,84.7,Male,0.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+2208,MCI,68.8,Male,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,Thyroid,3
+2210,AD,79.8,Female,0.0,12,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,5
+2213,AD,82.3,Female,0.0,14,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,6
+2216,AD,68.1,Male,1.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+2219,MCI,74.3,Male,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+2220,AD,82.0,Male,0.0,20,-,Arthritis,Cancer,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+2225,MCI,70.4,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2233,MCI,55.5,Female,1.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2234,MCI,63.6,Female,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,5
+2237,MCI,65.0,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2238,MCI,68.5,Male,0.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+2239,MCI,73.5,Female,1.0,15,-,Arthritis,-,-,-,-,-,-,-,Insomnia,Osteoarthritis,-,-,3
+2240,MCI,78.0,Male,1.0,12,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+2245,MCI,57.0,Female,2.0,20,Anxiety,-,-,Depression,-,-,-,-,-,Insomnia,-,-,Thyroid,4
+2247,MCI,65.1,Male,0.0,19,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+2248,AD,76.1,Male,1.0,12,-,Arthritis,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+2249,MCI,75.8,Male,0.0,15,Anxiety,-,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+2263,MCI,62.0,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2264,MCI,69.3,Male,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+2274,AD,64.0,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2278,MCI,56.0,Male,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+2284,MCI,76.6,Male,1.0,16,-,-,Cancer,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+2301,MCI,65.7,Male,0.0,19,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+2304,MCI,61.3,Male,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2307,MCI,78.6,Female,0.0,18,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+2308,MCI,74.8,Male,0.0,15,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+2314,-,74.8,Male,0.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+2315,MCI,68.2,Female,0.0,13,Anxiety,Arthritis,Cancer,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,6
+2316,AD,74.3,Female,1.0,12,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+2324,MCI,56.3,Female,1.0,13,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+2332,MCI,70.5,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+2333,MCI,67.0,Male,1.0,12,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+2336,MCI,72.9,Female,1.0,12,Anxiety,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,4
+2347,MCI,71.0,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,2
+2351,MCI,88.1,Female,,14,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+2357,MCI,71.6,Male,0.0,12,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+2360,MCI,63.0,Male,1.0,15,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,Thyroid,5
+2363,MCI,58.8,Male,0.0,13,Anxiety,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,3
+2367,AD,74.7,Male,1.0,20,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+2373,AD,79.0,Female,1.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2374,MCI,81.3,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2376,MCI,81.9,Male,1.0,17,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,-,7
+2378,MCI,59.9,Male,1.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2379,MCI,66.0,Male,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+2380,AD,67.8,Male,2.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+2381,AD,69.1,Male,2.0,16,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+2389,MCI,57.8,Female,0.0,15,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+2390,MCI,87.8,Female,0.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,3
+2391,AD,71.7,Female,1.0,12,-,Arthritis,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,7
+2392,MCI,64.4,Female,0.0,18,-,Arthritis,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,7
+2394,MCI,67.4,Male,2.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+2395,MCI,72.6,Male,1.0,19,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+2396,MCI,70.2,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+2398,AD,71.5,Male,2.0,13,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,4
+2403,AD,79.1,Female,0.0,15,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+2405,MCI,71.6,Female,0.0,13,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+2407,MCI,68.0,Female,0.0,16,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4001,AD,88.5,Female,0.0,9,Anxiety,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,3
+4003,CN,72.3,Female,1.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4004,MCI,66.8,Female,0.0,14,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,7
+4005,AD,70.5,Male,1.0,16,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4007,MCI,78.1,Male,1.0,20,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,-,-,-,3
+4009,AD,90.3,Male,0.0,17,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+4010,CN,70.8,Female,0.0,18,-,Arthritis,-,Depression,Hearing,-,-,-,-,Insomnia,Osteoarthritis,-,-,5
+4012,MCI,68.9,Female,0.0,16,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+4014,CN,80.7,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4015,AD,73.6,Female,1.0,20,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4018,CN,76.1,Male,0.0,18,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4020,CN,66.5,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4021,CN,66.5,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4022,MCI,86.4,Male,1.0,16,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+4024,AD,55.9,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4026,CN,73.5,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4028,CN,63.5,Female,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4029,MCI,61.1,Male,2.0,20,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,4
+4030,AD,68.3,Female,1.0,12,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+4032,CN,70.2,Female,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+4034,MCI,72.1,Female,2.0,19,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4035,AD,72.6,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4036,MCI,74.0,Male,0.0,20,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,4
+4037,CN,75.6,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4039,AD,55.9,Male,1.0,19,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4041,AD,77.9,Female,0.0,18,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+4042,AD,57.2,Male,0.0,18,Anxiety,-,-,-,Hearing,-,-,-,-,Insomnia,-,-,-,3
+4043,CN,82.1,Male,0.0,20,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,5
+4050,CN,77.0,Male,0.0,19,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4051,MCI,70.6,Male,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,4
+4053,MCI,75.3,Male,2.0,17,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+4054,MCI,68.3,Female,0.0,19,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4057,AD,81.1,Male,1.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4058,AD,84.6,Female,1.0,16,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+4059,MCI,71.9,Male,2.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4060,CN,84.4,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4061,MCI,64.1,Female,1.0,16,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,5
+4063,MCI,59.2,Female,0.0,13,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4066,CN,78.7,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4067,MCI,65.0,Male,0.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+4071,MCI,84.5,Male,0.0,13,-,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,4
+4072,MCI,62.3,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,4
+4073,MCI,76.2,Male,0.0,11,Anxiety,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,2
+4075,CN,73.4,Male,1.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4076,MCI,72.6,Female,0.0,20,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4077,MCI,75.4,Male,0.0,18,-,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,Thyroid,6
+4079,AD,64.5,Female,1.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4080,CN,78.6,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4081,CN,72.7,Female,1.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+4082,CN,75.4,Male,1.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4084,CN,68.4,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4085,-,68.4,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4086,CN,81.8,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4089,AD,73.7,Male,1.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+4090,CN,71.4,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4092,MCI,81.5,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4093,CN,70.0,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+4094,AD,60.0,Female,0.0,12,Anxiety,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,-,-,4
+4095,AD,88.0,Male,0.0,17,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4096,AD,84.5,Male,2.0,9,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4097,CN,70.8,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4100,MCI,78.5,Female,0.0,12,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+4102,AD,66.9,Female,0.0,14,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4103,CN,70.9,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+4104,CN,72.4,Male,0.0,20,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4105,MCI,70.8,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+4114,AD,55.0,Female,1.0,14,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4115,AD,67.4,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4119,CN,79.3,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+4120,CN,81.8,Female,0.0,17,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,Thyroid,4
+4121,MCI,89.0,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+4122,MCI,66.9,Male,0.0,17,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+4125,CN,75.8,Female,1.0,12,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,4
+4127,MCI,63.1,Female,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,4
+4128,MCI,72.8,Female,1.0,12,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,4
+4131,AD,82.4,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4133,MCI,79.7,Male,1.0,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+4134,MCI,68.8,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4136,AD,66.7,Male,1.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4138,AD,88.4,Female,0.0,14,-,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,Sleep Apnea,-,4
+4139,CN,70.5,Female,0.0,17,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4143,AD,63.6,Female,0.0,19,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4146,MCI,61.8,Male,2.0,14,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,2
+4148,CN,73.0,Male,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,Sleep Apnea,-,3
+4149,AD,73.3,Male,1.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4150,CN,73.9,Male,0.0,14,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,5
+4151,CN,72.2,Male,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+4152,AD,60.7,Male,0.0,18,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4153,AD,79.3,Male,1.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+4155,CN,77.6,Female,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4157,AD,81.1,Female,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4158,CN,84.3,Male,0.0,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+4159,MCI,71.0,Female,0.0,19,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4160,MCI,74.1,Male,0.0,12,Anxiety,-,Cancer,Depression,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,6
+4162,AD,71.3,Female,2.0,16,Anxiety,-,Cancer,-,-,-,-,-,-,-,-,-,-,2
+4164,CN,72.6,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4167,AD,69.5,Female,1.0,16,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4168,MCI,82.2,Male,1.0,17,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+4169,MCI,62.0,Female,0.0,13,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+4170,MCI,65.6,Female,1.0,18,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,7
+4171,AD,69.4,Male,0.0,16,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+4172,AD,75.8,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4173,CN,69.8,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4174,CN,73.7,Female,1.0,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+4175,AD,75.5,Male,1.0,20,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,Sleep Apnea,Thyroid,7
+4176,CN,84.0,Male,1.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+4177,CN,84.9,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,Thyroid,4
+4179,MCI,83.0,Male,2.0,20,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4184,MCI,62.3,Female,0.0,20,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,-,-,-,3
+4185,MCI,80.4,Male,0.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4186,MCI,74.4,Male,0.0,12,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,Sleep Apnea,-,5
+4187,MCI,62.0,Male,0.0,16,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+4188,AD,77.2,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4189,AD,73.1,Female,1.0,15,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,4
+4192,AD,82.2,Male,1.0,12,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+4194,MCI,62.0,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4195,AD,62.2,Male,2.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4196,CN,78.4,Male,0.0,14,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+4197,AD,79.3,Male,1.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,-,5
+4198,MCI,78.4,Female,1.0,16,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4199,MCI,59.0,Male,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,4
+4200,CN,70.2,Female,0.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,-,Insomnia,-,-,-,4
+4201,AD,64.0,Female,2.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4202,MCI,70.5,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4203,AD,74.4,Female,1.0,17,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+4205,MCI,81.4,Female,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+4206,MCI,68.6,Male,0.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,Sleep Apnea,-,4
+4208,CN,78.2,Male,0.0,20,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,Osteoarthritis,Sleep Apnea,Thyroid,6
+4209,AD,77.7,Female,0.0,19,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+4210,MCI,63.9,Male,1.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,3
+4211,AD,80.9,Female,0.0,15,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+4212,MCI,64.7,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4213,CN,78.0,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,Insomnia,-,Sleep Apnea,Thyroid,4
+4214,MCI,74.2,Male,0.0,20,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,-,6
+4215,AD,81.6,Male,1.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+4216,MCI,56.4,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4217,MCI,76.4,Male,0.0,16,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4218,MCI,80.7,Male,0.0,16,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+4219,MCI,79.4,Female,0.0,17,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4220,MCI,71.2,Female,0.0,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+4222,CN,82.3,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+4223,AD,75.8,Male,0.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,5
+4224,CN,75.1,Male,0.0,20,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,4
+4225,AD,69.9,Male,1.0,20,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4226,MCI,62.9,Female,0.0,17,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+4229,MCI,66.4,Male,0.0,15,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4232,MCI,74.2,Male,0.0,16,-,-,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4234,MCI,70.1,Male,1.0,13,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4235,MCI,63.8,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4237,MCI,80.9,Female,0.0,13,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+4240,AD,70.8,Male,2.0,20,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,3
+4241,MCI,69.8,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4243,AD,79.3,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4244,MCI,91.4,Male,0.0,20,-,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,4
+4245,AD,73.6,Male,1.0,19,-,-,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+4250,AD,78.5,Male,1.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4251,MCI,71.9,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4252,AD,86.5,Female,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+4254,MCI,85.9,Female,0.0,12,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+4255,CN,72.4,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4256,MCI,62.8,Female,1.0,20,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4257,CN,78.9,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4258,AD,75.8,Male,1.0,14,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+4259,MCI,63.0,Female,1.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4260,MCI,77.6,Female,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4262,AD,72.8,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4263,AD,74.3,Male,1.0,20,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4264,-,74.3,Male,1.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4266,CN,69.8,Female,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4268,MCI,63.5,Female,0.0,15,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,2
+4269,CN,65.6,Female,0.0,20,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4270,MCI,74.6,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4271,AD,61.8,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4272,MCI,70.9,Male,0.0,12,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,5
+4274,MCI,63.0,Male,1.0,14,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+4275,MCI,72.8,Male,0.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4276,CN,73.9,Female,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4277,MCI,71.4,Female,0.0,18,Anxiety,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+4278,MCI,75.0,Male,1.0,14,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4279,CN,83.7,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+4280,AD,79.7,Male,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+4281,MCI,77.5,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+4282,AD,89.6,Male,1.0,12,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4285,MCI,74.0,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,Thyroid,6
+4287,MCI,70.9,Female,1.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+4288,MCI,72.5,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+4290,MCI,73.5,Male,1.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4291,CN,75.5,Female,0.0,20,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+4292,CN,70.9,Male,0.0,15,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,-,3
+4293,AD,69.7,Male,0.0,12,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+4294,AD,75.2,Female,1.0,16,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,8
+4297,MCI,83.0,Male,1.0,12,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,3
+4299,MCI,76.8,Female,0.0,12,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+4300,MCI,80.6,Female,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4301,MCI,74.6,Male,0.0,18,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,5
+4302,MCI,76.1,Male,0.0,20,Anxiety,-,Cancer,Depression,Hearing,-,-,-,Hypertension,Insomnia,-,-,-,6
+4303,AD,80.2,Female,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4307,AD,78.5,Male,1.0,16,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4308,CN,74.0,Male,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4309,MCI,68.2,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4310,MCI,62.3,Female,1.0,17,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,4
+4311,MCI,72.5,Female,0.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4312,MCI,69.3,Male,1.0,17,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4313,CN,77.0,Female,1.0,18,-,-,-,-,Hearing,-,-,-,-,Insomnia,-,-,-,2
+4320,CN,70.7,Female,0.0,12,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+4324,AD,62.8,Female,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,-,-,-,Thyroid,4
+4327,MCI,82.9,Male,2.0,12,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+4328,MCI,67.6,Female,1.0,14,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+4331,AD,75.3,Female,1.0,15,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4332,MCI,69.0,Male,0.0,14,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,7
+4335,CN,71.7,Female,0.0,15,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,5
+4337,MCI,72.0,Male,0.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4338,AD,80.5,Male,0.0,14,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4339,CN,84.3,Male,2.0,17,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4340,CN,66.7,Female,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4343,CN,79.6,Male,0.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+4345,CN,69.7,Male,0.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+4346,AD,71.3,Male,2.0,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+4348,CN,66.1,Female,2.0,17,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+4349,CN,71.4,Female,0.0,16,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+4350,CN,72.9,Male,0.0,13,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4351,MCI,67.8,Female,1.0,16,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,5
+4352,CN,83.6,Male,0.0,16,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,-,-,-,3
+4353,AD,55.6,Female,1.0,16,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4354,AD,75.7,Male,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4356,MCI,68.1,Male,0.0,20,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,5
+4357,CN,73.7,Female,0.0,16,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+4359,MCI,76.7,Male,1.0,16,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+4360,MCI,59.5,Female,0.0,20,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4362,CN,67.8,Female,,12,Anxiety,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,3
+4363,AD,73.5,Female,0.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4365,AD,80.3,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+4366,AD,73.6,Male,1.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4367,CN,65.1,Female,1.0,18,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4369,CN,68.3,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4371,CN,67.7,Male,1.0,18,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+4372,CN,70.0,Female,0.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+4373,AD,71.1,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4376,CN,76.5,Female,0.0,16,-,-,Cancer,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,4
+4377,MCI,69.3,Female,1.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4379,AD,87.8,Female,0.0,12,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+4380,MCI,71.8,Male,0.0,17,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4381,MCI,55.0,Female,1.0,17,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,4
+4382,CN,75.9,Female,0.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+4383,MCI,72.0,Male,0.0,18,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,-,-,3
+4384,CN,62.3,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4385,AD,68.2,Female,1.0,12,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+4386,CN,84.7,Female,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4387,CN,76.1,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4388,MCI,66.8,Male,2.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4389,CN,81.1,Male,0.0,18,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,4
+4390,MCI,76.2,Female,0.0,12,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,Sleep Apnea,-,6
+4391,CN,74.4,Male,0.0,12,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4392,MCI,82.4,Male,0.0,12,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,5
+4393,CN,73.5,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4394,MCI,75.9,Female,0.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,Thyroid,5
+4395,MCI,72.4,Female,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+4396,CN,78.4,Female,0.0,12,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,Thyroid,7
+4399,CN,77.9,Female,1.0,16,-,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,5
+4400,MCI,71.1,Male,1.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4401,CN,67.5,Female,1.0,20,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+4402,AD,72.9,Female,1.0,12,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4403,MCI,74.3,Female,2.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4404,AD,82.5,Female,0.0,12,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+4405,MCI,71.4,Male,1.0,18,Anxiety,Arthritis,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,6
+4406,AD,78.9,Male,0.0,19,Anxiety,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,Thyroid,5
+4408,MCI,74.2,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4410,CN,69.1,Female,0.0,14,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+4414,AD,60.8,Female,1.0,18,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,4
+4415,AD,75.1,Female,2.0,13,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,Insomnia,-,-,-,5
+4417,MCI,74.4,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+4419,MCI,63.8,Female,1.0,18,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+4420,MCI,81.4,Male,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4421,CN,75.1,Female,0.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4422,AD,70.8,Female,0.0,15,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,Thyroid,4
+4423,MCI,77.6,Male,0.0,12,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4424,CN,66.2,Female,1.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,-,5
+4426,AD,77.2,Male,0.0,16,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,Sleep Apnea,-,4
+4427,CN,71.3,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4428,CN,72.6,Male,0.0,18,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,4
+4429,CN,77.0,Male,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4430,AD,80.0,Male,0.0,15,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+4431,MCI,74.1,Male,0.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,6
+4432,AD,61.6,Male,0.0,14,Anxiety,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,4
+4433,CN,76.8,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4434,AD,66.5,Male,0.0,17,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4438,MCI,76.8,Male,0.0,18,Anxiety,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,Thyroid,7
+4441,CN,68.7,Female,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+4442,CN,74.2,Female,1.0,17,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4443,MCI,67.9,Male,0.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4444,MCI,77.5,Male,0.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4445,MCI,73.7,Male,0.0,14,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,5
+4446,MCI,68.4,Female,0.0,15,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,4
+4447,MCI,67.5,Female,1.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4448,CN,63.8,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4449,CN,66.9,Female,0.0,12,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+4453,CN,65.9,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,5
+4455,MCI,64.2,Male,0.0,18,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,4
+4456,MCI,77.5,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4458,AD,76.1,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4459,-,76.1,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4462,AD,71.3,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+4463,MCI,66.5,Male,1.0,13,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4464,CN,70.4,Male,1.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,-,-,-,-,-,3
+4465,MCI,61.1,Female,1.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+4466,CN,79.8,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+4467,MCI,61.9,Female,2.0,12,-,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+4468,MCI,62.3,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+4469,CN,66.1,Male,1.0,19,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4473,MCI,74.8,Male,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4474,MCI,85.6,Male,0.0,18,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+4475,MCI,83.9,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4476,MCI,88.6,Male,0.0,11,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+4477,AD,82.1,Female,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,5
+4480,MCI,63.8,Female,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4482,CN,77.2,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+4483,CN,69.5,Female,0.0,15,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,4
+4485,CN,73.3,Male,0.0,17,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+4488,CN,72.6,Male,0.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,5
+4489,MCI,74.2,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4491,CN,84.1,Male,0.0,19,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+4494,AD,71.1,Male,2.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,4
+4496,CN,76.1,Female,1.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,4
+4498,MCI,77.5,Female,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+4499,MCI,83.8,Male,0.0,20,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+4500,AD,90.3,Female,0.0,13,-,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,Thyroid,4
+4501,AD,79.0,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4502,AD,58.5,Female,2.0,20,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4503,CN,71.7,Female,0.0,19,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4505,CN,80.4,Female,0.0,20,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+4506,AD,71.5,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+4507,AD,78.2,Male,1.0,16,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,Thyroid,4
+4508,CN,77.1,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4510,MCI,66.4,Female,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+4512,MCI,68.0,Female,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4513,MCI,60.6,Male,1.0,19,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+4514,MCI,67.6,Female,1.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,-,4
+4515,AD,74.6,Male,1.0,19,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4516,CN,71.4,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4517,MCI,70.5,Female,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+4520,CN,67.8,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4521,AD,70.0,Male,1.0,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+4522,MCI,66.8,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4524,MCI,71.9,Male,2.0,19,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+4526,AD,79.4,Male,2.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4530,AD,75.9,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4531,MCI,73.7,Male,1.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4536,MCI,77.9,Female,0.0,17,-,-,-,Depression,Hearing,-,-,-,-,-,-,-,-,2
+4538,AD,78.8,Female,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4539,MCI,66.4,Female,0.0,20,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,4
+4540,MCI,71.1,Female,0.0,16,-,-,Cancer,-,Hearing,-,-,-,-,-,-,-,-,2
+4542,AD,79.3,Female,2.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,5
+4543,MCI,70.1,Female,0.0,18,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+4545,CN,67.0,Female,0.0,19,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+4546,AD,71.0,Male,1.0,20,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+4547,AD,77.3,Male,0.0,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,Sleep Apnea,Thyroid,6
+4548,MCI,84.8,Male,0.0,19,Anxiety,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,6
+4549,AD,79.0,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+4552,CN,63.2,Male,1.0,17,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+4553,MCI,68.5,Female,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4555,CN,65.8,Female,1.0,15,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4556,MCI,72.9,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4557,MCI,83.3,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,4
+4558,CN,70.0,Female,1.0,20,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+4559,CN,67.4,Female,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4560,CN,70.3,Female,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4562,MCI,63.6,Male,2.0,18,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4564,MCI,64.9,Female,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4565,MCI,82.4,Male,0.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4566,MCI,83.4,Female,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4568,AD,70.7,Female,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+4571,MCI,60.5,Male,1.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4575,-,60.5,Male,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4576,CN,70.5,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+4577,MCI,84.7,Male,2.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4578,CN,69.2,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+4579,MCI,84.9,Male,0.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4580,CN,69.7,Female,2.0,16,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+4582,AD,66.6,Female,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4583,AD,86.5,Male,0.0,9,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,4
+4584,AD,78.3,Female,1.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4585,CN,65.3,Male,1.0,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4586,CN,75.8,Male,0.0,20,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4587,CN,65.7,Female,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4589,AD,75.1,Female,2.0,14,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+4590,MCI,60.2,Female,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4591,AD,65.9,Female,1.0,13,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,3
+4594,MCI,62.1,Male,1.0,20,Anxiety,-,-,Depression,Hearing,-,-,-,-,-,-,Sleep Apnea,-,4
+4595,AD,76.6,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4596,AD,65.7,Male,0.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+4597,AD,68.5,Female,0.0,18,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+4598,CN,65.1,Female,0.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+4599,CN,59.9,Male,1.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4601,MCI,72.8,Male,0.0,16,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+4603,MCI,59.2,Female,0.0,17,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4604,CN,65.0,Male,1.0,19,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+4605,MCI,84.7,Female,0.0,17,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+4607,MCI,56.2,Female,1.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4609,CN,81.7,Female,0.0,14,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4610,MCI,67.3,Female,0.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4611,MCI,66.9,Male,1.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4612,CN,68.4,Female,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4613,MCI,67.8,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+4614,MCI,67.7,Female,1.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,4
+4615,AD,86.5,Male,0.0,17,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4616,CN,84.8,Male,0.0,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+4620,CN,77.1,Male,0.0,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4621,MCI,69.9,Male,0.0,20,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+4622,-,69.9,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4623,AD,61.1,Female,1.0,13,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,5
+4624,MCI,77.6,Female,1.0,13,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4625,AD,63.8,Male,2.0,16,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+4626,MCI,69.2,Male,0.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+4629,MCI,70.7,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4630,MCI,65.4,Female,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+4631,AD,69.5,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,3
+4632,CN,67.7,Male,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4633,MCI,72.9,Female,,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+4635,MCI,72.7,Female,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+4636,MCI,77.1,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4637,MCI,70.8,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+4638,MCI,74.0,Male,0.0,17,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+4641,AD,73.6,Female,2.0,20,Anxiety,-,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,4
+4643,CN,65.1,Female,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,-,-,5
+4644,CN,67.6,Female,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4645,CN,76.3,Female,0.0,14,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,Insomnia,-,-,Thyroid,6
+4646,MCI,60.8,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4649,CN,65.4,Male,0.0,18,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,7
+4652,MCI,79.3,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+4653,MCI,80.4,Female,0.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+4654,MCI,75.4,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4657,AD,71.5,Female,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4659,AD,85.9,Male,2.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4660,AD,77.2,Female,1.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+4661,AD,73.6,Male,1.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4668,AD,70.8,Male,1.0,20,Anxiety,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+4671,MCI,81.8,Male,1.0,15,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4672,AD,66.8,Male,2.0,12,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,-,-,-,3
+4674,MCI,77.9,Male,1.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+4675,AD,79.8,Male,1.0,12,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+4676,AD,78.8,Male,1.0,19,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4678,MCI,72.3,Female,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4679,MCI,69.1,Male,1.0,17,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,Thyroid,8
+4680,AD,63.4,Female,2.0,19,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,4
+4686,AD,71.7,Male,1.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4688,CN,81.7,Female,0.0,14,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+4689,AD,69.6,Male,2.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4692,AD,83.2,Male,2.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4694,MCI,64.8,Female,1.0,14,Anxiety,-,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+4696,AD,73.0,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+4706,AD,60.7,Male,1.0,14,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+4707,AD,68.0,Male,1.0,14,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,-,8
+4708,MCI,83.4,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+4711,MCI,74.9,Female,0.0,17,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+4712,AD,74.3,Male,1.0,17,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4713,MCI,70.5,Male,1.0,20,Anxiety,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,6
+4714,AD,64.5,Female,2.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4715,AD,56.7,Female,0.0,18,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4718,AD,78.5,Male,1.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+4719,AD,79.1,Female,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+4720,AD,77.4,Male,2.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4721,AD,85.4,Male,0.0,15,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+4722,MCI,68.0,Female,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4723,MCI,69.4,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,-,Thyroid,4
+4728,AD,81.9,Male,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4729,AD,77.8,Female,0.0,19,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+4730,AD,81.1,Female,1.0,12,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,6
+4732,AD,77.2,Male,0.0,20,Anxiety,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,4
+4733,AD,75.3,Male,1.0,20,Anxiety,-,-,-,Hearing,-,-,-,-,-,-,-,-,2
+4736,MCI,71.8,Male,2.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+4737,AD,74.3,Female,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4739,CN,65.2,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4740,-,65.2,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4741,AD,61.6,Male,0.0,16,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+4742,MCI,70.6,Female,0.0,14,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+4743,MCI,70.1,Male,1.0,12,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+4744,MCI,72.3,Female,2.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4745,MCI,61.3,Female,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4746,AD,71.2,Female,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+4750,MCI,83.7,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+4755,AD,71.7,Male,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+4756,AD,84.2,Male,1.0,16,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4757,AD,63.1,Female,2.0,14,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+4762,CN,73.8,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4764,MCI,82.7,Female,0.0,20,Anxiety,-,Cancer,Depression,Hearing,-,-,-,-,-,-,-,-,4
+4765,AD,76.0,Male,1.0,16,Anxiety,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,-,9
+4767,MCI,66.4,Female,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+4769,MCI,58.0,Female,0.0,14,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4770,AD,75.9,Male,1.0,17,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+4772,AD,78.7,Female,0.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4774,AD,85.8,Male,0.0,17,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4777,AD,84.7,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+4780,MCI,70.2,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+4782,AD,71.9,Male,2.0,16,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4783,AD,83.2,Male,1.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4784,AD,81.6,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+4785,MCI,66.7,Female,0.0,13,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+4791,MCI,67.6,Female,1.0,12,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4792,AD,80.3,Male,0.0,17,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4793,MCI,85.3,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4795,CN,61.2,Male,0.0,16,Anxiety,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,3
+4796,AD,72.6,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+4798,MCI,82.6,Female,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4799,MCI,68.0,Male,0.0,14,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,Thyroid,4
+4801,AD,77.7,Male,2.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+4802,AD,83.2,Male,1.0,19,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+4803,MCI,82.7,Female,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4804,MCI,79.4,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4805,MCI,71.9,Female,1.0,20,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+4806,MCI,55.9,Male,0.0,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4807,AD,72.0,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,Thyroid,3
+4809,MCI,78.3,Male,1.0,12,-,-,-,Depression,-,-,-,-,-,Insomnia,-,-,-,2
+4813,MCI,67.6,Male,0.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4814,MCI,69.3,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4815,AD,69.8,Female,2.0,12,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+4816,AD,74.2,Male,2.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4817,MCI,60.7,Male,2.0,20,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,6
+4820,AD,85.6,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4823,AD,82.2,Male,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+4825,MCI,71.9,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4827,AD,71.0,Male,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4832,CN,69.7,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4835,CN,79.3,Male,0.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+4838,MCI,75.6,Male,0.0,14,Anxiety,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,3
+4842,MCI,73.0,Female,0.0,12,Anxiety,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+4843,CN,73.4,Female,0.0,13,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4844,AD,85.3,Male,1.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+4845,AD,68.0,Female,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4849,MCI,65.9,Female,2.0,18,Anxiety,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4852,MCI,64.1,Female,2.0,20,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4853,AD,70.9,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+4855,MCI,83.8,Male,1.0,14,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+4856,CN,65.0,Female,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+4857,AD,68.3,Male,1.0,16,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+4858,MCI,55.0,Male,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4859,AD,72.2,Male,1.0,20,-,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,-,Thyroid,4
+4862,AD,77.3,Male,0.0,18,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+4863,AD,70.0,Male,2.0,18,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+4867,AD,74.4,Male,2.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4868,MCI,77.1,Male,2.0,12,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+4869,MCI,77.2,Male,0.0,19,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+4871,MCI,66.4,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4872,CN,68.5,Female,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+4873,AD,82.6,Male,0.0,12,-,Arthritis,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+4874,MCI,57.7,Female,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4876,MCI,74.2,Male,1.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4877,MCI,84.4,Male,1.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+4878,CN,72.9,Female,0.0,14,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+4879,AD,79.6,Female,2.0,13,-,Arthritis,Cancer,Depression,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,5
+4883,MCI,76.1,Female,0.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+4885,AD,75.0,Male,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+4887,AD,73.8,Male,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4888,AD,74.8,Male,2.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4889,MCI,75.6,Male,0.0,18,-,-,Cancer,Depression,Hearing,-,-,-,-,Insomnia,-,-,-,4
+4891,AD,59.7,Male,2.0,15,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4892,AD,75.1,Female,1.0,11,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,5
+4893,AD,68.1,Female,1.0,12,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+4894,AD,60.7,Female,1.0,14,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,2
+4896,MCI,68.1,Male,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,Sleep Apnea,-,3
+4897,MCI,75.8,Female,0.0,11,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,Thyroid,6
+4898,MCI,75.2,Male,1.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4899,AD,81.9,Male,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4900,CN,59.8,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+4902,AD,75.3,Female,1.0,15,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+4903,MCI,77.2,Female,1.0,12,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+4904,MCI,65.7,Female,2.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4905,AD,72.7,Female,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+4906,AD,75.7,Female,0.0,18,Anxiety,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,6
+4907,MCI,65.8,Male,1.0,15,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4909,MCI,78.2,Female,1.0,11,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4910,AD,81.4,Female,0.0,15,-,-,-,-,Hearing,-,-,-,-,-,-,-,Thyroid,2
+4911,AD,74.5,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4912,AD,69.2,Female,2.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4914,MCI,61.9,Female,,12,-,Arthritis,-,-,Hearing,-,-,-,-,Insomnia,Osteoarthritis,-,-,4
+4917,MCI,75.0,Male,0.0,19,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+4918,AD,69.0,Female,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4919,MCI,74.8,Female,0.0,19,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+4920,MCI,61.9,Male,2.0,18,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,5
+4921,CN,66.7,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4922,MCI,76.2,Male,2.0,20,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+4924,AD,77.3,Male,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,3
+4925,MCI,75.0,Male,0.0,12,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,3
+4926,MCI,62.5,Male,1.0,18,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,Insomnia,Osteoarthritis,-,-,6
+4928,AD,77.8,Male,1.0,16,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+4929,AD,75.7,Female,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4936,AD,78.1,Male,0.0,19,-,Arthritis,-,Depression,Hearing,-,-,-,Hypertension,-,-,Sleep Apnea,-,5
+4938,AD,70.9,Male,1.0,16,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+4940,AD,89.3,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4941,MCI,60.2,Male,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4943,AD,76.1,Male,1.0,20,-,-,-,Depression,Hearing,-,-,-,Hypertension,Insomnia,-,-,-,4
+4944,MCI,68.0,Male,1.0,14,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+4945,AD,56.5,Male,1.0,12,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,4
+4947,AD,74.5,Male,1.0,14,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4949,AD,78.1,Female,2.0,18,-,-,-,Depression,-,-,-,-,-,-,-,Sleep Apnea,-,2
+4951,CN,71.9,Female,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+4952,CN,69.3,Female,1.0,12,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+4954,AD,61.1,Male,2.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4955,MCI,71.4,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+4958,AD,69.5,Male,1.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+4959,AD,77.5,Male,1.0,20,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+4960,MCI,59.6,Male,1.0,20,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,Thyroid,5
+4962,AD,80.1,Female,2.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+4963,-,80.1,Female,2.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4964,AD,80.9,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+4966,MCI,61.7,Male,0.0,16,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+4968,AD,79.1,Male,1.0,16,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+4971,AD,76.4,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4974,AD,73.4,Male,0.0,19,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+4976,MCI,63.6,Female,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+4980,AD,87.3,Male,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4982,AD,58.2,Female,2.0,13,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+4984,AD,73.1,Female,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+4985,MCI,78.7,Female,1.0,13,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+4986,MCI,85.3,Male,1.0,20,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+4987,MCI,69.3,Male,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,2
+4989,MCI,60.1,Female,0.0,19,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,Thyroid,4
+4990,AD,75.1,Female,1.0,14,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+4992,AD,63.7,Female,1.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,6
+4993,-,63.7,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+4994,AD,84.8,Male,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+4997,AD,60.6,Female,0.0,14,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+5000,MCI,76.6,Male,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+5004,MCI,64.6,Male,0.0,20,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+5005,AD,78.1,Male,2.0,14,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+5006,AD,68.2,Female,1.0,14,Anxiety,-,-,-,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,3
+5007,MCI,71.5,Male,0.0,14,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,4
+5012,AD,76.3,Male,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+5013,AD,68.3,Female,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+5014,MCI,76.5,Male,0.0,16,-,Arthritis,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,6
+5015,AD,77.8,Female,1.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+5016,AD,64.4,Female,2.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5017,AD,84.3,Male,1.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+5018,AD,73.3,Male,2.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5019,AD,62.9,Female,2.0,12,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+5023,CN,63.9,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,4
+5026,AD,70.5,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+5027,AD,75.5,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+5028,AD,61.9,Male,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+5029,AD,79.6,Male,2.0,16,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,7
+5031,AD,80.2,Female,0.0,14,-,Arthritis,-,Depression,-,-,-,-,-,Insomnia,Osteoarthritis,-,-,4
+5032,AD,77.5,Female,0.0,11,Anxiety,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,4
+5037,AD,67.3,Male,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+5038,AD,81.5,Male,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+5040,CN,75.9,Female,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+5047,MCI,68.8,Female,2.0,16,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+5054,AD,74.0,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5056,AD,85.3,Male,1.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+5057,AD,75.2,Male,0.0,16,-,-,-,Depression,Hearing,-,-,-,Hypertension,-,-,-,-,3
+5058,AD,61.8,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+5059,AD,72.1,Male,1.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+5062,AD,71.0,Female,1.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5063,AD,71.5,Female,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+5066,MCI,79.7,Male,1.0,17,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+5067,AD,80.6,Male,0.0,13,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,Insomnia,-,-,Thyroid,4
+5070,AD,71.2,Male,0.0,15,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+5071,AD,76.0,Male,2.0,14,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+5075,CN,83.0,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+5078,CN,67.4,Female,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,4
+5079,CN,73.2,Male,0.0,18,-,-,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+5082,CN,69.2,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,2
+5083,CN,73.7,Male,2.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+5087,AD,64.6,Female,0.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+5090,AD,58.8,Male,2.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5091,CN,68.0,Male,0.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,5
+5093,CN,69.3,Female,0.0,19,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+5095,AD,65.9,Male,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+5096,MCI,80.4,Male,1.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+5097,MCI,67.5,Male,0.0,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,Sleep Apnea,-,7
+5099,MCI,61.6,Female,1.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,5
+5100,CN,71.2,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+5102,CN,66.4,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+5106,AD,74.1,Male,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+5109,CN,78.4,Male,0.0,14,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+5110,CN,68.8,Female,0.0,14,-,Arthritis,-,Depression,-,-,-,-,-,Insomnia,Osteoarthritis,-,Thyroid,5
+5112,AD,74.3,Female,1.0,12,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,Thyroid,4
+5113,CN,65.1,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+5118,CN,68.2,Female,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+5119,AD,77.0,Female,0.0,12,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,3
+5120,AD,81.0,Male,1.0,19,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+5121,AD,76.8,Male,0.0,16,-,Arthritis,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,8
+5123,AD,73.5,Female,1.0,14,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+5124,CN,76.7,Female,0.0,20,-,Arthritis,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,7
+5125,CN,65.2,Female,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+5126,CN,68.5,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+5127,CN,76.3,Female,1.0,19,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+5129,CN,74.5,Female,1.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+5130,MCI,66.3,Male,1.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+5131,CN,70.5,Male,0.0,14,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+5132,MCI,69.3,Female,0.0,12,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,Thyroid,4
+5135,MCI,77.0,Male,1.0,16,-,-,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+5137,CN,78.9,Female,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5138,AD,60.6,Male,0.0,19,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+5140,CN,70.3,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,-,-,-,-,-,2
+5141,CN,76.7,Male,0.0,18,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+5142,CN,76.3,Female,0.0,12,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+5146,AD,72.9,Female,,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,Thyroid,4
+5147,CN,76.5,Male,0.0,20,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+5148,CN,68.6,Male,1.0,18,Anxiety,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,5
+5150,CN,66.4,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+5153,CN,79.0,Male,0.0,18,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+5154,CN,72.4,Female,1.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,4
+5157,CN,65.5,Male,0.0,17,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,6
+5158,CN,74.1,Female,0.0,19,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+5159,CN,66.4,Female,1.0,20,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+5160,MCI,84.1,Female,0.0,18,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+5162,AD,69.3,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5165,AD,78.8,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+5166,MCI,65.1,Female,0.0,20,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+5167,CN,66.6,Male,0.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+5169,CN,65.7,Female,1.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+5170,CN,76.9,Male,0.0,20,-,-,Cancer,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,3
+5171,CN,72.8,Female,0.0,18,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,-,Insomnia,-,-,Thyroid,5
+5175,CN,79.5,Female,0.0,20,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+5176,CN,65.7,Female,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+5177,CN,72.5,Female,0.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+5178,CN,68.6,Male,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+5184,AD,72.5,Female,2.0,17,Anxiety,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+5185,CN,69.9,Female,1.0,20,Anxiety,Arthritis,-,-,Hearing,-,-,-,-,Insomnia,-,Sleep Apnea,-,5
+5187,AD,61.4,Female,1.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+5193,CN,72.5,Female,0.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,6
+5194,CN,65.2,Female,0.0,18,Anxiety,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,-,7
+5195,CN,65.1,Female,1.0,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,7
+5196,AD,72.8,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,Insomnia,Osteoarthritis,-,-,3
+5197,CN,78.9,Female,0.0,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,6
+5198,CN,69.2,Female,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+5199,CN,66.8,Female,0.0,15,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+5200,CN,76.4,Female,0.0,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+5202,CN,65.7,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+5203,CN,66.5,Female,0.0,19,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+5204,CN,76.8,Female,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+5205,AD,59.3,Female,0.0,16,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+5206,AD,85.2,Male,,20,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,-,5
+5207,MCI,74.9,Male,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+5208,AD,68.7,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+5209,CN,76.1,Male,0.0,15,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+5210,AD,85.8,Male,1.0,10,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+5212,CN,78.2,Male,0.0,20,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+5213,CN,65.4,Female,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+5214,MCI,69.6,Female,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5218,CN,82.5,Female,0.0,12,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+5219,MCI,75.7,Male,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+5222,CN,67.5,Female,0.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+5224,AD,78.0,Male,0.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+5227,MCI,71.3,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+5228,CN,77.8,Female,0.0,15,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,Thyroid,3
+5230,CN,73.5,Female,1.0,19,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,3
+5231,AD,74.2,Female,0.0,12,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+5234,MCI,78.6,Female,0.0,15,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+5235,CN,68.0,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+5236,CN,85.3,Male,0.0,16,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+5237,AD,80.3,Male,1.0,19,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+5240,AD,62.7,Female,0.0,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,4
+5241,AD,87.8,Male,0.0,16,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+5242,CN,67.2,Male,0.0,20,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+5243,CN,71.0,Male,1.0,12,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+5244,CN,75.8,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+5248,CN,74.3,Male,0.0,18,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+5250,CN,73.9,Male,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+5251,AD,66.1,Female,1.0,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+5252,AD,56.5,Male,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+5253,MCI,68.1,Male,1.0,18,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+5256,CN,70.4,Female,1.0,20,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,3
+5258,MCI,77.9,Female,0.0,12,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+5259,CN,78.8,Female,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+5261,CN,78.1,Female,1.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+5262,CN,73.5,Female,1.0,17,Anxiety,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+5263,MCI,75.2,Female,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+5265,MCI,75.1,Female,0.0,18,-,Arthritis,Cancer,-,Hearing,-,-,-,-,-,-,-,Thyroid,4
+5266,CN,65.9,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+5267,CN,65.8,Female,1.0,15,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+5269,CN,64.9,Male,1.0,16,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+5271,CN,80.4,Male,0.0,20,Anxiety,Arthritis,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,7
+5272,CN,69.9,Female,0.0,8,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,3
+5273,MCI,90.1,Male,0.0,20,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+5275,AD,78.0,Female,1.0,12,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+5277,MCI,71.8,Female,1.0,15,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+5278,CN,80.2,Male,1.0,19,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+5279,CN,68.5,Male,0.0,20,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+5280,CN,67.5,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5282,MCI,66.9,Male,1.0,17,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,-,3
+5283,CN,72.9,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+5285,AD,71.4,Male,0.0,16,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+5287,CN,78.9,Female,0.0,16,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+5288,CN,81.9,Female,0.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+5289,CN,59.7,Female,1.0,16,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,-,-,6
+5290,CN,67.0,Female,1.0,12,Anxiety,-,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,6
+5292,CN,74.3,Female,0.0,13,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+5294,MCI,68.5,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+5295,CN,75.5,Female,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+5296,CN,69.3,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6001,MCI,72.0,Female,0.0,14,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,6
+6002,MCI,71.7,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6005,CN,67.5,Female,1.0,20,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+6007,CN,76.8,Female,2.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6008,CN,63.1,Female,0.0,16,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6009,CN,67.5,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6013,AD,60.4,Female,0.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6014,CN,67.1,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6015,CN,68.3,Male,0.0,14,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6016,CN,65.4,Female,0.0,12,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+6017,MCI,76.6,Male,1.0,17,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6019,CN,81.7,Male,0.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6024,CN,67.4,Female,1.0,16,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,Thyroid,4
+6025,CN,79.7,Female,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6027,CN,75.6,Female,,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+6030,CN,65.1,Female,1.0,18,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+6031,CN,67.2,Female,2.0,20,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6032,CN,66.3,Female,0.0,15,Anxiety,Arthritis,-,-,-,-,-,-,-,-,-,-,-,2
+6033,MCI,57.9,Female,0.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+6034,AD,63.9,Female,1.0,14,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+6035,CN,83.9,Male,1.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6037,CN,67.0,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+6038,CN,77.4,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6039,AD,55.9,Male,0.0,13,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6041,MCI,57.7,Female,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6043,CN,78.8,Male,0.0,20,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,5
+6044,CN,75.0,Female,2.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+6045,CN,71.6,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6046,CN,76.0,Male,0.0,20,Anxiety,-,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,3
+6047,MCI,71.1,Female,0.0,16,Anxiety,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+6049,CN,72.9,Female,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+6051,CN,66.3,Female,0.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6052,MCI,88.1,Female,1.0,16,-,-,Cancer,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,5
+6053,CN,65.7,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6054,CN,78.6,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6056,MCI,65.0,Male,0.0,16,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,4
+6057,CN,71.6,Female,0.0,20,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,Thyroid,5
+6058,CN,68.3,Female,0.0,13,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6059,CN,64.9,Female,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+6061,MCI,74.0,Female,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,4
+6062,CN,67.4,Female,0.0,18,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+6063,CN,74.0,Female,1.0,15,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+6064,CN,69.1,Female,,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+6065,CN,71.2,Female,1.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+6066,CN,68.4,Female,0.0,20,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+6067,CN,63.1,Female,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6068,AD,75.7,Male,1.0,12,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6069,CN,73.6,Female,1.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6072,AD,89.2,Female,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6073,AD,62.9,Male,0.0,17,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6075,MCI,75.4,Male,0.0,16,Anxiety,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,3
+6076,CN,58.7,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6080,CN,76.8,Female,0.0,12,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+6082,CN,67.9,Female,,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6083,MCI,72.1,Male,0.0,12,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,3
+6084,CN,78.4,Male,0.0,20,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+6085,CN,55.8,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6088,CN,69.2,Female,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+6094,CN,69.6,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+6097,CN,74.6,Male,1.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+6100,AD,71.3,Female,2.0,13,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6103,CN,69.9,Female,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+6104,CN,69.0,Male,1.0,20,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6105,CN,75.4,Female,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6110,MCI,71.6,Female,0.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,5
+6111,MCI,82.6,Female,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6113,CN,76.2,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6115,CN,71.0,Female,1.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6116,CN,69.6,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6117,CN,65.4,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6118,CN,74.7,Female,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+6119,CN,66.9,Female,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6120,CN,67.8,Male,0.0,15,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6125,MCI,71.0,Female,1.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6131,CN,68.2,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6133,CN,69.3,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6134,MCI,62.8,Female,2.0,16,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+6136,CN,61.1,Male,1.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6138,CN,68.9,Female,0.0,17,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6141,MCI,60.1,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,Insomnia,-,-,-,2
+6142,AD,86.1,Female,0.0,15,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6143,MCI,70.2,Male,0.0,13,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6144,MCI,65.0,Female,0.0,16,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+6145,CN,70.3,Female,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+6146,CN,65.5,Female,0.0,16,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,-,Thyroid,7
+6147,CN,69.6,Male,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6148,CN,81.5,Female,0.0,19,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,5
+6151,CN,65.1,Male,0.0,18,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+6157,CN,67.8,Female,1.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6158,CN,65.0,Male,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6159,CN,76.2,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6161,CN,66.3,Female,1.0,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6163,CN,68.2,Male,0.0,15,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6164,CN,68.9,Female,0.0,20,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+6168,CN,76.0,Female,0.0,18,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6170,CN,57.6,Female,1.0,14,Anxiety,Arthritis,-,Depression,Hearing,-,-,-,-,-,-,-,Thyroid,5
+6173,MCI,70.4,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6175,CN,69.3,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6178,CN,66.0,Female,1.0,16,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+6179,AD,79.4,Male,0.0,16,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+6180,MCI,86.8,Male,0.0,16,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+6183,CN,65.6,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6184,CN,70.5,Female,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,Thyroid,4
+6185,CN,82.7,Male,0.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+6186,CN,90.3,Male,0.0,12,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6187,CN,74.3,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,Thyroid,4
+6188,CN,65.6,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6189,MCI,69.5,Female,0.0,15,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6192,CN,83.3,Female,0.0,18,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,Thyroid,3
+6195,CN,70.1,Female,,16,Anxiety,-,-,-,-,-,-,-,-,Insomnia,-,-,-,2
+6197,CN,71.3,Female,1.0,19,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+6199,MCI,69.1,Male,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6200,CN,72.3,Male,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6202,CN,69.6,Female,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6203,CN,67.6,Female,0.0,16,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+6204,CN,65.3,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,2
+6206,MCI,81.9,Male,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,3
+6207,CN,70.9,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6209,CN,72.2,Male,0.0,16,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+6211,CN,80.6,Male,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6212,CN,71.3,Female,0.0,18,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,Hyperlipidemia,-,-,-,-,-,4
+6213,CN,70.9,Male,1.0,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6216,AD,83.8,Male,2.0,20,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+6218,CN,62.6,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6220,MCI,74.0,Female,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6221,MCI,75.0,Male,1.0,18,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6222,AD,73.9,Female,1.0,12,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,4
+6224,CN,75.9,Female,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6226,CN,65.4,Female,1.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6227,CN,62.0,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+6228,CN,75.1,Female,0.0,14,Anxiety,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,-,-,4
+6229,MCI,79.9,Male,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+6231,AD,69.1,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6232,CN,65.2,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6233,CN,76.4,Female,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+6234,CN,70.6,Female,1.0,16,-,-,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+6236,MCI,82.9,Male,0.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6237,CN,61.1,Female,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6240,CN,66.9,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6241,AD,72.2,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6243,MCI,66.8,Male,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,3
+6244,CN,66.7,Male,1.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6250,CN,71.9,Female,1.0,16,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+6251,CN,65.5,Female,2.0,16,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,-,-,5
+6252,AD,74.6,Female,1.0,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+6253,CN,66.4,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6254,CN,68.7,Male,,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6255,CN,75.3,Female,1.0,13,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6256,CN,66.4,Female,1.0,16,Anxiety,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+6257,CN,62.0,Male,,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6258,MCI,79.8,Male,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6259,CN,71.4,Male,1.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6260,CN,69.0,Male,0.0,20,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+6264,AD,55.3,Male,2.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6266,CN,66.1,Female,0.0,17,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,Insomnia,Osteoarthritis,Sleep Apnea,-,7
+6268,MCI,69.6,Male,2.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+6269,CN,70.2,Female,0.0,16,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+6271,CN,62.0,Female,0.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6273,CN,65.8,Female,0.0,13,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+6274,MCI,76.7,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6275,CN,58.3,Female,0.0,17,-,Arthritis,-,-,-,-,-,-,-,Insomnia,-,-,Thyroid,3
+6277,CN,70.7,Female,0.0,20,-,Arthritis,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,6
+6278,CN,80.9,Female,0.0,16,-,-,Cancer,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,Thyroid,7
+6279,MCI,89.1,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6281,CN,79.8,Female,,14,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+6282,CN,75.5,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6283,CN,66.7,Female,2.0,19,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+6284,AD,80.1,Male,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6285,CN,66.6,Female,,16,-,-,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,-,2
+6287,CN,69.3,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6288,CN,72.6,Male,1.0,19,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6289,CN,56.5,Female,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6291,MCI,72.3,Male,0.0,19,-,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,7
+6292,CN,76.6,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6293,CN,86.3,Female,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6294,CN,82.4,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6297,MCI,81.4,Male,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6298,CN,69.5,Female,0.0,16,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+6300,MCI,70.3,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6303,AD,70.4,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6304,CN,66.3,Female,1.0,18,-,Arthritis,-,-,-,-,-,-,-,Insomnia,-,-,-,2
+6306,CN,73.2,Male,1.0,14,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+6307,CN,76.3,Male,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6308,CN,70.6,Male,0.0,18,-,-,Cancer,Depression,-,-,-,-,-,-,-,-,-,2
+6309,CN,65.2,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6310,CN,67.2,Female,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+6312,MCI,80.3,Male,1.0,18,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,3
+6313,CN,59.1,Female,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6314,CN,73.6,Male,0.0,16,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6315,MCI,71.2,Male,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6316,CN,77.5,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+6317,CN,81.3,Female,0.0,18,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+6318,CN,69.5,Female,0.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,5
+6319,CN,68.1,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6320,CN,65.4,Female,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,Thyroid,3
+6321,CN,72.8,Male,0.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+6323,CN,66.2,Male,0.0,14,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6326,MCI,75.7,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6327,MCI,77.2,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6328,CN,69.9,Male,1.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6329,MCI,62.0,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6330,CN,70.2,Male,1.0,16,-,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+6333,CN,77.9,Male,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+6334,MCI,72.6,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6335,CN,67.2,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6336,MCI,82.6,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6341,AD,67.1,Male,1.0,12,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+6343,CN,67.0,Male,0.0,20,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6345,AD,79.3,Male,1.0,12,-,-,Cancer,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+6346,CN,67.0,Male,0.0,16,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6347,AD,85.9,Male,1.0,19,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,Thyroid,6
+6348,CN,69.5,Female,0.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+6349,CN,73.8,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6350,CN,77.4,Female,0.0,14,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+6351,CN,74.2,Female,0.0,18,-,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+6352,CN,71.4,Male,1.0,20,-,Arthritis,-,-,Hearing,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,4
+6354,CN,70.8,Female,1.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6356,MCI,68.7,Male,2.0,19,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6357,CN,67.7,Female,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6358,CN,75.3,Male,1.0,19,-,-,Cancer,Depression,Hearing,-,-,Hyperlipidemia,-,Insomnia,-,-,-,5
+6359,CN,67.4,Female,1.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6360,CN,68.2,Male,1.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6361,-,68.2,Male,1.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6362,CN,82.9,Female,0.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6364,MCI,57.8,Female,2.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+6367,CN,81.2,Female,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6369,MCI,76.9,Male,0.0,18,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+6370,MCI,69.8,Female,2.0,18,Anxiety,-,-,Depression,Hearing,-,-,-,-,-,-,-,-,3
+6371,MCI,66.7,Male,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6372,CN,83.6,Male,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6373,MCI,78.0,Female,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+6374,CN,64.2,Female,0.0,16,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6375,CN,69.3,Female,0.0,17,-,Arthritis,-,-,-,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,5
+6376,MCI,75.3,Female,0.0,19,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6377,AD,81.6,Female,1.0,14,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+6378,MCI,69.2,Male,0.0,20,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+6381,CN,73.3,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6384,CN,70.2,Male,0.0,19,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,3
+6385,CN,66.6,Female,0.0,16,-,-,-,-,Hearing,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,3
+6386,CN,69.0,Female,0.0,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+6389,AD,69.7,Male,2.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6390,-,69.7,Male,2.0,20,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6391,CN,65.5,Female,,12,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+6393,CN,62.2,Female,2.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+6394,CN,67.2,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6396,CN,75.3,Female,0.0,14,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6399,CN,64.0,Female,1.0,12,Anxiety,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+6400,CN,64.3,Female,1.0,12,-,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,2
+6401,CN,75.7,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6402,MCI,79.7,Male,0.0,16,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,5
+6404,CN,66.1,Male,0.0,18,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6405,CN,70.9,Female,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6406,MCI,60.7,Male,1.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+6408,CN,59.5,Female,1.0,19,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+6409,CN,58.3,Female,1.0,15,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6411,AD,71.4,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6412,CN,67.4,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6413,CN,78.2,Female,1.0,20,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6414,MCI,69.2,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6415,CN,72.3,Female,0.0,14,-,Arthritis,Cancer,Depression,-,-,-,-,Hypertension,Insomnia,-,Sleep Apnea,Thyroid,7
+6416,CN,69.2,Female,1.0,13,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6417,CN,77.6,Male,1.0,14,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+6418,CN,66.7,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+6419,CN,75.5,Male,1.0,14,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6421,MCI,65.2,Male,1.0,18,Anxiety,Arthritis,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,7
+6422,CN,65.9,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6423,CN,80.7,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6424,CN,65.8,Female,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+6426,MCI,79.5,Female,0.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,3
+6427,MCI,65.3,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6428,MCI,58.9,Male,1.0,16,-,-,Cancer,-,Hearing,-,-,Hyperlipidemia,-,Insomnia,-,-,-,4
+6429,CN,68.8,Female,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6432,MCI,67.3,Female,2.0,18,Anxiety,Arthritis,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,4
+6433,AD,76.4,Male,2.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6436,CN,69.8,Female,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6437,CN,76.3,Male,0.0,16,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6439,CN,65.8,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6441,MCI,88.6,Male,0.0,20,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,5
+6442,CN,78.3,Male,0.0,18,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,4
+6443,CN,77.5,Female,0.0,18,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+6446,MCI,61.5,Male,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6447,CN,71.0,Female,0.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6448,CN,67.8,Male,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6449,CN,65.9,Female,1.0,19,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,3
+6450,MCI,78.3,Female,1.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6452,CN,62.3,Female,1.0,14,-,Arthritis,-,-,-,-,-,-,-,Insomnia,-,-,-,2
+6454,CN,72.3,Female,1.0,16,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,4
+6455,CN,68.0,Female,1.0,18,Anxiety,-,-,-,Hearing,-,-,-,-,-,-,-,-,2
+6456,CN,86.4,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+6457,CN,74.6,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6459,CN,66.0,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6462,CN,69.7,Male,1.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6463,MCI,83.1,Male,0.0,13,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6465,CN,66.8,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6466,-,66.8,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6467,AD,71.2,Female,0.0,13,-,-,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,-,2
+6468,CN,69.4,Male,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6470,CN,68.9,Male,1.0,19,-,-,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,Thyroid,3
+6471,CN,71.8,Male,0.0,18,-,Arthritis,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+6472,CN,67.6,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+6473,CN,66.1,Female,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6474,MCI,73.8,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6476,CN,75.2,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+6479,MCI,60.2,Female,2.0,20,Anxiety,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+6480,MCI,79.9,Female,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6483,MCI,62.6,Female,2.0,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+6485,CN,71.5,Female,0.0,18,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,-,4
+6487,CN,68.3,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6488,CN,76.6,Female,1.0,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+6492,CN,69.8,Female,1.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,Insomnia,-,-,-,3
+6493,CN,79.5,Male,1.0,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6494,CN,66.4,Male,1.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6495,CN,83.3,Female,,17,-,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+6496,CN,84.6,Male,,19,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6497,AD,66.5,Male,1.0,20,-,-,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,4
+6498,MCI,79.4,Male,2.0,18,Anxiety,-,Cancer,-,-,-,-,-,-,-,-,-,-,2
+6499,CN,69.5,Female,0.0,11,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+6500,CN,66.8,Male,1.0,15,-,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,3
+6502,CN,66.8,Female,1.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+6503,MCI,75.8,Male,1.0,18,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+6504,CN,68.8,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,-,-,-,-,Thyroid,2
+6505,CN,,Female,0.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,5
+6509,CN,65.4,Male,0.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6510,CN,66.9,Male,1.0,17,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6512,MCI,78.2,Male,1.0,14,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+6513,CN,66.1,Female,1.0,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+6514,CN,74.1,Female,0.0,14,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,Sleep Apnea,Thyroid,7
+6515,CN,89.9,Female,0.0,15,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,2
+6516,CN,76.2,Male,0.0,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6517,CN,69.4,Female,0.0,14,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+6518,CN,65.7,Female,1.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6519,CN,74.5,Female,0.0,20,Anxiety,-,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,6
+6521,CN,66.4,Female,1.0,18,-,-,-,-,Hearing,-,-,-,-,Insomnia,-,-,-,2
+6522,CN,71.2,Male,0.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6524,CN,66.4,Female,0.0,12,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+6525,MCI,62.2,Female,,16,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+6528,CN,65.1,Female,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6529,AD,60.3,Female,1.0,16,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6533,MCI,72.0,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+6534,MCI,61.2,Male,0.0,20,-,-,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,Thyroid,4
+6535,AD,78.2,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6541,MCI,81.9,Female,0.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,4
+6542,CN,63.2,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6543,AD,72.2,Male,1.0,17,-,-,-,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6544,MCI,77.3,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+6545,AD,61.4,Female,1.0,14,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6546,CN,80.4,Female,1.0,20,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,Thyroid,3
+6547,CN,67.0,Female,0.0,19,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+6548,CN,56.5,Female,0.0,20,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6549,AD,66.1,Male,2.0,20,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6550,MCI,55.9,Female,0.0,13,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6551,CN,72.8,Female,1.0,14,-,Arthritis,-,-,-,-,-,-,Hypertension,Insomnia,-,Sleep Apnea,-,4
+6559,MCI,66.2,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6563,CN,68.6,Male,0.0,12,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6564,CN,71.3,Female,2.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6566,CN,72.8,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6570,CN,71.2,Male,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+6572,CN,67.9,Female,0.0,13,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+6573,AD,87.7,Male,0.0,20,Anxiety,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+6574,CN,73.5,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6575,CN,73.5,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6577,CN,66.8,Male,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6578,CN,66.9,Male,0.0,16,-,-,-,Depression,Hearing,-,-,-,-,Insomnia,-,-,-,3
+6580,CN,79.9,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+6581,CN,74.4,Female,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6582,CN,67.1,Male,1.0,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6586,MCI,78.5,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6589,CN,66.9,Female,0.0,18,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6591,MCI,76.7,Female,0.0,18,-,-,Cancer,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,Sleep Apnea,Thyroid,7
+6592,AD,71.8,Male,2.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6593,MCI,84.1,Female,0.0,19,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6595,AD,79.6,Male,0.0,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+6597,MCI,62.7,Female,0.0,12,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6598,MCI,,Male,1.0,12,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,Osteoarthritis,-,-,4
+6600,AD,71.2,Female,1.0,14,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6601,AD,73.0,Male,1.0,18,-,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,2
+6602,AD,63.4,Male,2.0,16,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,Thyroid,3
+6604,MCI,85.3,Male,0.0,15,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,Thyroid,4
+6605,MCI,76.4,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,-,-,-,-,-,-,2
+6606,MCI,73.6,Female,1.0,16,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+6610,MCI,61.3,Male,2.0,10,-,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+6611,MCI,77.5,Male,,18,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6612,MCI,67.9,Female,2.0,19,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6615,MCI,76.4,Female,1.0,15,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6616,MCI,78.6,Male,0.0,18,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+6618,MCI,84.8,Male,,12,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6619,MCI,71.9,Male,0.0,12,Anxiety,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,Thyroid,4
+6621,CN,57.4,Female,1.0,16,Anxiety,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,8
+6622,MCI,76.8,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6624,CN,65.4,Male,0.0,19,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+6627,-,65.4,Male,0.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6629,CN,57.0,Female,0.0,14,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6632,AD,74.5,Female,1.0,14,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,3
+6633,MCI,71.2,Male,0.0,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,4
+6634,AD,80.3,Female,0.0,16,Anxiety,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,8
+6635,MCI,56.5,Female,2.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6640,AD,83.1,Male,0.0,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6641,MCI,64.9,Male,1.0,16,Anxiety,Arthritis,-,Depression,-,-,-,-,-,-,-,-,-,3
+6643,MCI,56.4,Male,0.0,16,Anxiety,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,5
+6644,CN,86.1,Male,0.0,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,-,-,5
+6648,AD,73.4,Male,1.0,16,Anxiety,-,Cancer,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+6651,MCI,59.2,Female,0.0,16,Anxiety,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,6
+6652,MCI,86.4,Female,0.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6653,CN,68.1,Male,0.0,16,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,5
+6654,MCI,72.1,Male,0.0,20,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,2
+6655,AD,80.9,Male,0.0,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6657,MCI,77.2,Male,1.0,18,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+6658,AD,74.8,Female,1.0,17,-,-,-,Depression,-,-,-,-,Hypertension,Insomnia,-,Sleep Apnea,-,4
+6660,AD,84.9,Female,0.0,16,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+6661,AD,75.0,Female,0.0,15,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6668,AD,75.6,Female,1.0,15,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6669,MCI,62.3,Male,,18,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+6670,CN,58.6,Female,,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+6672,MCI,75.0,Male,0.0,20,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+6673,MCI,81.7,Male,,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6674,MCI,70.0,Male,,20,-,-,Cancer,Depression,-,-,-,-,-,Insomnia,-,-,-,3
+6677,MCI,78.6,Male,,16,-,Arthritis,Cancer,Depression,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,6
+6679,MCI,75.4,Male,1.0,14,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6681,MCI,64.8,Male,1.0,16,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,4
+6682,MCI,76.1,Male,1.0,19,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6683,AD,66.7,Male,1.0,15,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,-,-,-,-,-,3
+6686,MCI,79.2,Male,0.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6687,AD,80.2,Female,2.0,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6688,MCI,78.5,Male,1.0,18,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6689,AD,75.1,Male,1.0,14,Anxiety,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,4
+6690,AD,67.7,Female,1.0,14,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6691,MCI,73.9,Female,1.0,12,Anxiety,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,-,Insomnia,-,-,-,6
+6693,MCI,74.4,Male,2.0,16,-,-,Cancer,-,-,-,-,-,Hypertension,-,-,-,-,2
+6694,AD,69.7,Male,,12,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6695,MCI,66.3,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6696,MCI,68.0,Female,,20,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,4
+6697,MCI,60.9,Female,1.0,14,Anxiety,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,Thyroid,5
+6699,CN,67.1,Male,,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,2
+6700,MCI,69.7,Female,2.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,Thyroid,2
+6701,-,69.7,Female,2.0,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6702,MCI,64.4,Female,0.0,12,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+6703,MCI,62.7,Female,1.0,17,-,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,2
+6704,CN,65.3,Female,1.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+6705,AD,74.9,Male,1.0,18,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6707,MCI,73.9,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6708,AD,56.0,Male,2.0,14,-,-,-,-,Hearing,-,-,-,-,-,-,-,-,1
+6709,CN,68.5,Female,0.0,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,4
+6712,-,68.5,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6713,AD,71.1,Female,1.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+6714,CN,63.3,Female,0.0,12,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6716,MCI,75.3,Male,0.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,-,2
+6717,CN,74.7,Male,,18,-,-,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6719,MCI,72.2,Male,2.0,15,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6721,AD,77.9,Male,0.0,18,-,-,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+6722,CN,80.7,Female,1.0,16,-,-,-,-,-,-,-,-,-,Insomnia,-,-,-,1
+6723,MCI,64.0,Female,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6724,AD,75.4,Male,1.0,17,-,-,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,2
+6726,MCI,70.6,Male,,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,Thyroid,7
+6727,MCI,73.0,Female,,16,Anxiety,-,-,-,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,3
+6730,CN,73.9,Male,,14,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+6731,MCI,66.8,Female,1.0,20,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+6733,AD,75.6,Male,,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6734,CN,73.2,Female,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6735,AD,79.3,Female,0.0,14,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+6739,CN,68.1,Female,,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6742,MCI,68.7,Female,,14,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6744,MCI,62.2,Male,,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6746,AD,77.1,Male,,15,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+6748,MCI,64.2,Female,,18,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,Sleep Apnea,-,5
+6750,CN,74.5,Male,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6751,CN,67.7,Female,,16,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,-,6
+6754,AD,77.9,Male,,16,Anxiety,Arthritis,-,Depression,Hearing,-,-,-,-,Insomnia,Osteoarthritis,-,-,6
+6755,MCI,68.3,Male,,15,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6757,MCI,71.4,Female,,18,-,-,Cancer,-,Hearing,-,-,-,Hypertension,-,-,Sleep Apnea,-,4
+6758,MCI,68.4,Male,,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,Thyroid,7
+6760,MCI,70.8,Male,,20,Anxiety,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+6761,MCI,69.1,Male,,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6763,AD,82.3,Female,,14,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,Sleep Apnea,-,4
+6764,MCI,71.8,Male,,18,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,-,5
+6765,MCI,68.6,Female,,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6768,AD,78.4,Female,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6770,AD,84.5,Female,,19,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+6771,MCI,66.8,Male,,12,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,-,2
+6773,CN,55.1,Female,0.0,18,-,-,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,2
+6775,MCI,70.0,Female,,15,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,-,-,-,3
+6777,MCI,71.6,Male,,20,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6779,MCI,71.5,Male,,20,-,-,-,Depression,Hearing,-,-,-,-,-,-,Sleep Apnea,-,3
+6780,CN,63.4,Female,,17,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6784,AD,82.9,Male,0.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6785,CN,65.0,Female,0.0,18,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6786,CN,87.4,Female,0.0,18,-,-,Cancer,-,-,-,-,-,-,-,-,-,-,1
+6788,AD,69.7,Male,,19,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6789,MCI,78.9,Female,0.0,14,-,-,Cancer,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+6790,MCI,78.4,Male,0.0,13,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6794,-,78.4,Male,0.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6796,AD,71.7,Male,,18,-,-,-,-,Hearing,-,-,-,-,-,-,Sleep Apnea,-,2
+6797,CN,67.1,Female,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6798,MCI,73.0,Male,,18,-,-,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6799,CN,66.9,Female,,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6800,AD,87.5,Female,,19,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,5
+6801,CN,61.0,Female,1.0,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6802,CN,63.3,Female,,12,-,-,-,Depression,-,-,-,-,-,Insomnia,-,-,Thyroid,3
+6803,MCI,75.0,Female,,12,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,4
+6804,MCI,69.1,Male,0.0,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6805,AD,61.9,Female,0.0,16,Anxiety,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,3
+6809,MCI,75.8,Male,1.0,16,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+6810,AD,73.2,Male,0.0,16,-,-,-,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6811,MCI,75.4,Female,0.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,3
+6813,CN,67.1,Male,0.0,16,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6816,MCI,75.0,Female,1.0,16,-,Arthritis,-,Depression,Hearing,-,-,-,-,-,Osteoarthritis,-,-,4
+6817,MCI,66.1,Male,1.0,18,-,Arthritis,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+6820,AD,68.3,Male,2.0,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6821,MCI,71.7,Female,1.0,16,Anxiety,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,7
+6822,CN,61.6,Female,0.0,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6823,MCI,73.5,Male,,20,Anxiety,-,-,-,Hearing,-,-,-,Hypertension,-,-,Sleep Apnea,-,4
+6825,AD,73.3,Female,1.0,18,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+6828,AD,81.3,Male,0.0,12,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,Sleep Apnea,-,4
+6830,MCI,90.0,Male,0.0,16,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,-,-,2
+6831,CN,76.3,Female,2.0,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6832,MCI,,Male,0.0,18,Anxiety,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,3
+6833,AD,87.1,Female,1.0,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6834,CN,82.3,Female,0.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,Thyroid,4
+6837,AD,57.2,Male,1.0,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6839,AD,70.3,Female,1.0,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6840,AD,68.6,Female,2.0,12,-,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+6842,MCI,72.2,Female,0.0,18,-,-,-,Depression,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,3
+6843,AD,68.2,Female,1.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,5
+6844,MCI,76.2,Female,,19,-,Arthritis,-,-,Hearing,-,-,-,-,-,-,-,-,2
+6845,MCI,62.4,Female,0.0,16,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,Sleep Apnea,-,6
+6846,MCI,77.1,Male,2.0,18,-,Arthritis,-,Depression,Hearing,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,Thyroid,7
+6847,MCI,72.9,Male,0.0,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,2
+6848,MCI,63.0,Male,0.0,15,Anxiety,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6849,AD,78.4,Male,2.0,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6850,AD,79.7,Male,1.0,19,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,3
+6852,AD,76.4,Male,1.0,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6853,-,76.4,Male,1.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6854,AD,86.2,Male,1.0,18,Anxiety,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,3
+6857,MCI,71.4,Male,1.0,16,-,-,Cancer,Depression,-,-,-,Hyperlipidemia,-,Insomnia,-,-,-,4
+6860,MCI,74.7,Male,1.0,14,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,Sleep Apnea,Thyroid,8
+6861,MCI,,Male,0.0,18,Anxiety,-,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6863,AD,65.2,Male,1.0,16,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+6869,AD,78.3,Male,,10,-,-,-,Depression,-,-,-,-,Hypertension,-,-,-,-,2
+6871,MCI,68.1,Female,0.0,13,Anxiety,Arthritis,-,Depression,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,5
+6872,CN,66.2,Female,1.0,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6873,MCI,72.1,Male,,14,-,-,-,-,Hearing,-,-,-,Hypertension,Insomnia,-,-,-,3
+6874,MCI,76.5,Female,0.0,14,Anxiety,Arthritis,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,Thyroid,5
+6875,MCI,73.3,Male,0.0,12,-,Arthritis,Cancer,-,Hearing,-,-,Hyperlipidemia,-,-,Osteoarthritis,-,Thyroid,6
+6877,MCI,79.7,Male,0.0,16,-,Arthritis,Cancer,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+6878,MCI,75.2,Male,0.0,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+6879,MCI,61.6,Male,,20,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,Sleep Apnea,Thyroid,3
+6880,-,61.6,Male,,20,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6883,-,61.6,Male,,20,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6884,MCI,56.0,Female,1.0,14,Anxiety,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,Thyroid,3
+6885,MCI,71.7,Male,1.0,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6886,CN,80.4,Female,0.0,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+6887,MCI,72.9,Female,0.0,14,-,-,Cancer,-,-,-,-,-,-,-,-,Sleep Apnea,-,2
+6888,MCI,63.7,Female,0.0,13,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6889,MCI,67.8,Male,0.0,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6890,MCI,65.5,Male,1.0,19,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,Sleep Apnea,-,6
+6891,AD,78.4,Male,1.0,15,-,-,Cancer,-,-,-,-,-,-,-,-,-,Thyroid,2
+6894,MCI,74.7,Male,,20,-,-,-,Depression,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6896,CN,64.8,Male,,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6897,MCI,65.9,Male,,18,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6899,MCI,55.4,Female,,12,Anxiety,-,Cancer,-,-,-,-,-,-,-,-,-,-,2
+6901,MCI,71.7,Female,,14,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6906,-,71.7,Female,,14,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6907,CN,66.3,Male,,18,-,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,-,3
+6908,MCI,89.1,Female,,20,Anxiety,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,Thyroid,8
+6910,CN,76.6,Female,,13,-,Arthritis,-,-,-,-,Hypercholesterolemia,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,5
+6911,AD,73.4,Male,,18,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6912,-,73.4,Male,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6914,CN,70.0,Male,,16,Anxiety,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+6915,CN,63.2,Female,,16,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+6916,MCI,77.0,Male,,18,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,Thyroid,2
+6917,CN,64.2,Female,,14,Anxiety,Arthritis,-,-,-,-,-,-,-,-,Osteoarthritis,Sleep Apnea,Thyroid,5
+6918,CN,57.5,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6919,-,57.5,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6920,CN,65.4,Female,,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,3
+6921,AD,76.5,Male,,16,-,-,-,Depression,-,-,-,Hyperlipidemia,-,Insomnia,-,Sleep Apnea,-,4
+6924,CN,60.2,Female,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6925,CN,57.0,Male,,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6926,MCI,78.4,Female,,14,-,Arthritis,Cancer,-,-,-,-,-,-,-,Osteoarthritis,-,-,3
+6927,AD,59.5,Female,,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6929,MCI,63.1,Female,,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6931,CN,72.7,Male,,20,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,-,-,Osteoarthritis,-,-,3
+6934,-,72.7,Male,,20,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6935,CN,70.4,Female,,20,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+6939,AD,73.5,Male,,17,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,3
+6940,CN,72.4,Male,,18,-,Arthritis,-,Depression,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,5
+6941,CN,62.2,Male,,20,-,-,-,-,Hearing,-,-,-,-,Insomnia,-,-,-,2
+6942,CN,59.7,Female,,16,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+6943,CN,75.2,Male,,18,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+6944,MCI,76.9,Female,,18,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,Thyroid,4
+6947,MCI,74.7,Female,,15,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+6948,CN,69.7,Male,,16,Anxiety,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,4
+6950,CN,74.8,Female,,18,Anxiety,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,Osteoarthritis,-,Thyroid,8
+6951,CN,54.8,Female,,13,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6952,CN,67.3,Female,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6954,MCI,62.9,Female,,18,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+6956,CN,65.2,Male,,16,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6957,CN,77.9,Male,,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6958,CN,75.9,Female,,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6959,CN,64.6,Male,,12,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6960,CN,61.8,Female,,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6961,MCI,61.9,Female,,18,Anxiety,-,-,Depression,-,-,-,Hyperlipidemia,-,-,-,-,-,3
+6962,AD,74.6,Female,,12,Anxiety,-,-,-,-,-,-,-,Hypertension,Insomnia,-,-,-,3
+6963,CN,57.4,Female,,12,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,2
+6964,MCI,78.1,Female,,16,Anxiety,-,-,-,-,-,-,-,-,-,-,-,-,1
+6965,AD,77.0,Male,,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6966,CN,61.5,Male,,20,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6969,MCI,68.5,Male,,16,-,Arthritis,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,4
+6971,-,68.5,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+6974,CN,80.7,Female,,14,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3
+6976,AD,57.1,Male,,12,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6977,CN,56.8,Female,,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6978,CN,81.9,Female,,20,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6981,CN,66.0,Female,,16,-,-,-,-,-,-,-,Hyperlipidemia,-,-,-,-,-,1
+6986,MCI,62.1,Female,,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6987,CN,65.5,Female,,17,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+6988,CN,83.2,Female,,14,-,-,-,-,-,-,-,-,Hypertension,-,-,Sleep Apnea,-,2
+6989,MCI,68.0,Female,,16,-,-,-,-,-,-,-,-,-,-,-,Sleep Apnea,-,1
+6991,CN,68.4,Female,,16,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6992,CN,52.7,Female,,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+6993,CN,57.7,Male,,14,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6994,CN,61.4,Female,,18,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+6995,CN,58.6,Female,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+6996,CN,64.6,Female,,16,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+6998,CN,57.1,Male,,16,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+6999,CN,70.0,Male,,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+7000,MCI,89.5,Female,,16,-,-,-,-,Hearing,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+7001,AD,69.9,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7003,AD,82.0,Female,,14,-,-,Cancer,Depression,-,-,Hypercholesterolemia,-,-,-,-,-,-,3
+7004,CN,56.6,Female,,16,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,Thyroid,3
+7006,CN,57.8,Female,,15,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7007,MCI,71.9,Female,,14,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,-,-,4
+7008,MCI,73.5,Female,,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+7010,CN,59.3,Male,,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,2
+7011,CN,50.4,Female,,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7012,CN,57.0,Female,,16,Anxiety,-,-,-,-,-,-,-,Hypertension,-,-,-,-,2
+7013,MCI,82.1,Female,,16,-,Arthritis,-,-,-,-,-,-,-,-,-,Sleep Apnea,Thyroid,3
+7015,MCI,77.1,Male,,17,-,-,Cancer,Depression,Hearing,-,-,-,Hypertension,-,-,Sleep Apnea,-,5
+7016,MCI,66.1,Male,,15,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,Thyroid,5
+7018,CN,63.0,Female,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7019,MCI,67.3,Female,,18,-,-,-,-,-,-,Hypercholesterolemia,-,Hypertension,Insomnia,-,-,-,3
+7020,MCI,67.1,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7021,MCI,67.4,Female,,14,Anxiety,-,-,Depression,-,-,-,-,-,-,-,-,Thyroid,3
+7023,MCI,76.7,Male,,20,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,-,5
+7024,CN,73.9,Male,,20,-,Arthritis,-,-,Hearing,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+7025,MCI,68.3,Male,,12,-,Arthritis,-,-,-,-,Hypercholesterolemia,-,Hypertension,-,Osteoarthritis,-,-,4
+7029,MCI,59.8,Female,,14,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+7031,MCI,81.4,Female,,14,-,Arthritis,-,Depression,-,-,-,Hyperlipidemia,Hypertension,Insomnia,-,-,-,5
+7032,MCI,76.8,Male,,16,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+7033,AD,59.4,Female,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7035,-,59.4,Female,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+7039,AD,61.6,Female,,18,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+7041,MCI,73.3,Female,,20,-,-,-,Depression,-,-,-,-,-,-,-,-,-,1
+7042,CN,61.6,Female,,16,-,Arthritis,-,-,-,-,-,-,-,-,-,-,-,1
+7043,CN,62.4,Female,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7045,CN,68.4,Female,,15,Anxiety,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,4
+7046,CN,71.2,Female,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7048,CN,61.8,Female,,14,-,-,-,-,-,-,Hypercholesterolemia,-,-,-,-,-,-,1
+7050,CN,67.9,Female,,16,-,-,Cancer,-,-,-,-,Hyperlipidemia,-,-,-,-,-,2
+7051,CN,63.7,Male,,12,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7052,-,63.7,Male,,12,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+7054,MCI,72.2,Female,,18,Anxiety,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,Osteoarthritis,Sleep Apnea,Thyroid,7
+7055,CN,69.9,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7059,CN,57.6,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7060,MCI,76.5,Male,,15,-,-,-,-,-,-,-,-,Hypertension,-,-,-,-,1
+7061,MCI,58.5,Female,,14,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7062,CN,69.5,Female,,18,-,Arthritis,-,-,-,-,-,-,Hypertension,-,Osteoarthritis,-,-,3
+7066,AD,80.4,Female,,18,Anxiety,-,Cancer,-,Hearing,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,5
+7070,MCI,78.4,Male,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7071,MCI,71.2,Female,,12,Anxiety,-,-,Depression,-,-,-,-,-,Insomnia,-,-,-,3
+7072,CN,62.6,Female,,16,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7073,MCI,77.4,Male,,14,-,-,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,2
+7074,CN,70.8,Male,,18,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7079,MCI,86.7,Female,,18,-,Arthritis,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,Sleep Apnea,-,5
+7080,CN,57.2,Female,,14,-,-,-,-,-,-,-,-,-,-,-,-,Thyroid,1
+7083,MCI,75.1,Male,,17,-,-,-,-,-,-,-,-,-,-,-,-,-,0
+7085,MCI,69.7,Female,,12,-,Arthritis,-,-,-,-,-,Hyperlipidemia,Hypertension,-,-,-,-,3
+7088,-,69.7,Female,,12,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+7092,CN,68.5,Male,,15,-,-,Cancer,-,-,-,Hypercholesterolemia,-,Hypertension,-,-,-,-,3

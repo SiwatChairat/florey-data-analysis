@@ -22,6 +22,7 @@ di_rid_json = "data/processed_data/di_rid_dict.json"
 top_diseases = "data/processed_data/top_diseases.json"
 rid_with_cond = "data/processed_data/rid_with_cond.json"
 disease_cond = "data/processed_data/disease_cond.json"
+rid_with_info = "data/processed_data/rid_with_info.json"
 
 # match function to compare disease types with medical history
 def match_disease(disease_name, prev_dx):
@@ -208,13 +209,14 @@ pick_diseases = [
 # ------------------------------------------------------------
 
 
-def get_rid_with_cond(file_name, col):
+def get_rid_with_info(file_name):
+    # col 1 = DX
     cn_index = []
     mci_index = []
     ad_index = []
     rid_summary = {}
     file = pd.read_csv(file_name, low_memory=False)
-    cond_list = file[col].tolist()
+    cond_list = file["DX"].tolist()
     for i in range(len(cond_list)):
         regex = r"{c}".format(c=cond_list[i])
         try:
@@ -236,25 +238,59 @@ def get_rid_with_cond(file_name, col):
 
     for i in range(len(ad_rid_list)):
         rid = int(ad_rid_list[i])
-        rid_summary[rid] = "AD"
+        age = file.loc[file["RID"] == rid, "AGE"].iloc[0]
+        gender = file.loc[file["RID"] == rid, "PTGENDER"].iloc[0]
+        apoe4 = file.loc[file["RID"] == rid, "APOE4"].iloc[0]
+        edu = file.loc[file["RID"] == rid, "PTEDUCAT"].iloc[0]
+        data = {
+            "DX": "AD",
+            "AGE": age,
+            "GENDER": gender,
+            "APOE4": apoe4,
+            "EDUCATION": edu,
+        }
+        rid_summary[rid] = data
     for i in range(len(mci_rid_list)):
         rid = int(mci_rid_list[i])
         if rid not in rid_summary:
-            rid_summary[rid] = "MCI"
+            age = file.loc[file["RID"] == rid, "AGE"].iloc[0]
+            gender = file.loc[file["RID"] == rid, "PTGENDER"].iloc[0]
+            apoe4 = file.loc[file["RID"] == rid, "APOE4"].iloc[0]
+            edu = file.loc[file["RID"] == rid, "PTEDUCAT"].iloc[0]
+            data = {
+                "DX": "MCI",
+                "AGE": age,
+                "GENDER": gender,
+                "APOE4": apoe4,
+                "EDUCATION": edu,
+            }
+            rid_summary[rid] = data
     for i in range(len(cn_rid_list)):
         rid = int(cn_rid_list[i])
         if rid not in rid_summary:
-            rid_summary[rid] = "CN"
+            age = file.loc[file["RID"] == rid, "AGE"].iloc[0]
+            gender = file.loc[file["RID"] == rid, "PTGENDER"].iloc[0]
+            apoe4 = file.loc[file["RID"] == rid, "APOE4"].iloc[0]
+            edu = file.loc[file["RID"] == rid, "PTEDUCAT"].iloc[0]
+            data = {
+                "DX": "CN",
+                "AGE": age,
+                "GENDER": gender,
+                "APOE4": apoe4,
+                "EDUCATION": edu,
+            }
+            rid_summary[rid] = data
     return rid_summary
 
 
 # ------------------------------------------------------------
 # get rid with their condition, CN, MCI and AD
-# rid_with_cond = get_rid_with_cond(adni_merge, "DX")
+# rid_with_info = get_rid_with_info(adni_merge)
+# print(rid_with_info)
 
-# create a json file for the rid with condition info
-# jsonStr = json.dumps(rid_with_cond, cls=NpEncoder)
-# jsonFile = open("rid_with_cond.json", "w")
+# # create a json file for the rid with condition info
+# jsonStr = json.dumps(rid_with_info, cls=NpEncoder)
+# jsonFile = open("rid_with_info.json", "w")
 # jsonFile.write(jsonStr)
 # jsonFile.close()
 # ------------------------------------------------------------
@@ -341,10 +377,10 @@ def display_summary_table(disease_cond):
 # ------------------------------------------------------------
 
 
-def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
+def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
     df1 = pd.read_json(disease_cond, typ="series")
     df2 = pd.read_csv(adni_merge, low_memory=False)
-    df3 = dict(pd.read_json(rid_with_cond, typ="series"))
+    df3 = dict(pd.read_json(rid_with_info, typ="series"))
     rid_list = list(np.unique(df2["RID"]))
     data_list = []
     d = sorted(
@@ -367,7 +403,12 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
     for i in range(len(rid_list)):
         try:
             rid = rid_list[i]
-            cond = df3[rid]
+            rid = rid_list[i]
+            cond = df3[rid]["DX"]
+            age = df3[rid]["AGE"]
+            gender = df3[rid]["GENDER"]
+            apoe4 = df3[rid]["APOE4"]
+            edu = df3[rid]["EDUCATION"]
             diseases_list = []
             headers = list(df1.keys())
             for j in range(len(headers)):
@@ -385,15 +426,19 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
                     except Exception as e:
                         ordered_list.append("-")
                         continue
-            data = [rid, cond] + ordered_list + [diseases_count]
-            if rid == 2:
-                print(data)
+            data = (
+                [rid, cond, age, gender, apoe4, edu] + ordered_list + [diseases_count]
+            )
             data_list.append(data)
         except Exception:
             print("No condition information on this patient")
             data = [
                 rid,
                 "-",
+                age,
+                gender,
+                apoe4,
+                edu,
                 "-",
                 "-",
                 "-",
@@ -414,6 +459,10 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
     x.field_names = [
         "RID",
         "CONDITION",
+        "AGE",
+        "GENDER",
+        "APOE4",
+        "EDUCATION",
         "Anxiety",
         "Arthritis",
         "Cancer",
@@ -432,14 +481,14 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond):
 
     x.add_rows(data_list)
     csv_str = x.get_csv_string()
-    with open("patients_info_new.csv", "w", newline="") as f_output:
+    with open("patients_rid_with_info.csv", "w", newline="") as f_output:
         f_output.write(csv_str)
 
 
 # ------------------------------------------------------------
 # print patients information with the latest condition sorted by their RID
 
-patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_cond)
+patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info)
 
 # ------------------------------------------------------------
 

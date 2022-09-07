@@ -503,7 +503,7 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict
 # ------------------------------------------------------------
 # print patients information with the latest condition sorted by their RID
 
-patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_json)
+# patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_json)
 
 # ------------------------------------------------------------
 

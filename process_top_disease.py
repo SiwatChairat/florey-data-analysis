@@ -404,7 +404,7 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict
     )
     for i in range(len(rid_list)):
         try:
-            other_co_mor_count = 0
+            all_count = 0
             rid = rid_list[i]
             cond = df3[rid]["DX"]
             age = df3[rid]["AGE"]
@@ -419,12 +419,8 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict
             for l in range(len(d_dict)):
                 data = dict(d_dict[l])
                 disease = list(data.keys())[0]
-                if (
-                    disease.upper() != disease
-                    and rid in data[disease]
-                    and data[disease] not in headers
-                ):
-                    other_co_mor_count += 1
+                if disease.upper() != disease and rid in data[disease]:
+                    all_count += 1
 
             ordered_list = sorted(diseases_list)
             diseases_count = len(ordered_list)
@@ -440,11 +436,11 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict
             data = (
                 [rid, cond, age, gender, apoe4, edu]
                 + ordered_list
-                + [diseases_count, other_co_mor_count]
+                + [diseases_count, all_count]
             )
             data_list.append(data)
         except Exception:
-            print("No condition information on this patient")
+            print(rid, ": No condition information on this patient")
             data = [
                 rid,
                 "-",
@@ -490,8 +486,8 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict
         "Osteoarthritis",
         "Sleep Apnea",
         "Thyroid",
-        "DISEASE_COUNT",
-        "OTHER_CO_MOR_COUNT",
+        "SELECTED_DISEASE_COUNT",
+        "ALL_DISEASE_COUNT",
     ]
 
     x.add_rows(data_list)

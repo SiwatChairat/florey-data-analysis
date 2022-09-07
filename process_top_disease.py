@@ -5,7 +5,7 @@ import numpy as np
 import json
 import re
 from prettytable import PrettyTable
-from os import walk
+from os import remove, walk
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 from collections import OrderedDict, ChainMap
@@ -377,10 +377,12 @@ def display_summary_table(disease_cond):
 # ------------------------------------------------------------
 
 
-def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
+def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict):
     df1 = pd.read_json(disease_cond, typ="series")
     df2 = pd.read_csv(adni_merge, low_memory=False)
     df3 = dict(pd.read_json(rid_with_info, typ="series"))
+    df4 = pd.read_json(di_rid_dict)
+    d_dict = dict(df4["disease"])
     rid_list = list(np.unique(df2["RID"]))
     data_list = []
     d = sorted(
@@ -402,7 +404,7 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
     )
     for i in range(len(rid_list)):
         try:
-            rid = rid_list[i]
+            other_co_mor_count = 0
             rid = rid_list[i]
             cond = df3[rid]["DX"]
             age = df3[rid]["AGE"]
@@ -414,6 +416,15 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
             for j in range(len(headers)):
                 if rid in df1[headers[j]]["RID_LIST"]:
                     diseases_list.append(headers[j])
+            for l in range(len(d_dict)):
+                data = dict(d_dict[l])
+                disease = list(data.keys())[0]
+                if (
+                    disease.upper() != disease
+                    and rid in data[disease]
+                    and data[disease] not in headers
+                ):
+                    other_co_mor_count += 1
 
             ordered_list = sorted(diseases_list)
             diseases_count = len(ordered_list)
@@ -427,7 +438,9 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
                         ordered_list.append("-")
                         continue
             data = (
-                [rid, cond, age, gender, apoe4, edu] + ordered_list + [diseases_count]
+                [rid, cond, age, gender, apoe4, edu]
+                + ordered_list
+                + [diseases_count, other_co_mor_count]
             )
             data_list.append(data)
         except Exception:
@@ -439,6 +452,7 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
                 gender,
                 apoe4,
                 edu,
+                "-",
                 "-",
                 "-",
                 "-",
@@ -477,18 +491,19 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info):
         "Sleep Apnea",
         "Thyroid",
         "DISEASE_COUNT",
+        "OTHER_CO_MOR_COUNT",
     ]
 
     x.add_rows(data_list)
     csv_str = x.get_csv_string()
-    with open("patients_rid_with_info.csv", "w", newline="") as f_output:
+    with open("patients_rid_with_info_latest.csv", "w", newline="") as f_output:
         f_output.write(csv_str)
 
 
 # ------------------------------------------------------------
 # print patients information with the latest condition sorted by their RID
 
-patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info)
+patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_json)
 
 # ------------------------------------------------------------
 

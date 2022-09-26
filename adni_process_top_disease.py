@@ -115,7 +115,7 @@ def tidy_json(file_json):
     res_dict = {}
     df = pd.read_json(file_json)
     # remove unrelated disease name
-    black_list = ["Pain", "Glasses", "Smoking", "Flu", "Sleep", "Breast", "Disc", "Gas"]
+    black_list = ["Pain", "Glasses", "Smoking", "Flu", "Sleep", "Breast", "Disc"]
     for d in disease_list.itertuples():
         disease_name = d.disease
         count = df[disease_name]
@@ -149,7 +149,11 @@ def get_top_val(file_json, n, order):
 
 # ------------------------------------------------------------
 # get top diseases mentioned in the data by count
-# print(get_top_val(processed_disease, 25, False))
+# a = get_top_val(processed_disease, 25, False)
+# print(a)
+# print("{:<30} {:<15}".format("Disease", "Count"))
+# for d in a.items():
+#     print("{:<30} {:<15}".format(d[0], d[1]))
 # ------------------------------------------------------------
 
 # extract wanted diseases from the overall dict

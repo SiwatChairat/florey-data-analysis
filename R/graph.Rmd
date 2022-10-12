@@ -1,0 +1,109 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r setup, include=FALSE}
+library(MASS)
+library(ISLR)
+library(corrplot)
+library(glmnet)
+library(HRW)
+library(knitr)
+library(formatR)
+library(gam)
+library(splines)
+library(locfit)
+library(plot.matrix)
+library(png)
+library(clusterProfiler)
+library(enrichplot)
+library(readr)
+library(ggplot2)
+library(ggnewscale)
+library(ggupset)
+library(GGally)  
+setwd("/Users/Siwat/Desktop/floreyPlacement/alzheimer-prediction-model/R")
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 80), tidy = TRUE)
+```
+
+## Import dataset 
+```{r}
+dfBP <- read.csv("Supplementary_2BP.csv")
+dfCC <- read.csv("Supplementary_2CC.csv")
+dfMF <- read.csv("Supplementary_2MF.csv")
+```
+
+## Extract Gene ID from the dataset
+```{r}
+gene_BP <- parse_number(dfBP$X.term.ID)
+gene_CC <- parse_number(dfCC$X.term.ID)
+gene_MF <- parse_number(dfMF$X.term.ID)
+gene_id <- c(gene_BP, gene_CC, gene_MF)
+```
+
+## Parse in ID to "org.Hs.eg.db" package for computation
+```{r}
+go <- enrichGO(gene_id, OrgDb = "org.Hs.eg.db", ont="all")
+egoBP <- enrichGO(gene_id, OrgDb = "org.Hs.eg.db", ont="BP", readable=TRUE)
+egoCC <- enrichGO(gene_id, OrgDb = "org.Hs.eg.db", ont="CC", readable=TRUE)
+egoMF <- enrichGO(gene_id, OrgDb = "org.Hs.eg.db", ont="MF", readable=TRUE)
+x <- pairwise_termsim(go, method = "JC")
+
+# ego1: enriched terms = 17
+egoBP
+# ego2: enriched terms = 3
+egoCC
+# ego3: enriched terms = 1
+egoMF
+```
+
+## Go plot
+```{r, fig.height = 15, fig.width = 25, fig.align = "center"}
+goplot(egoBP, showCategory = 17)
+goplot(egoCC, showCategory = 3)
+```
+
+
+## Bar plot
+```{r, fig.height = 15, fig.width = 20, fig.align = "center"}
+# Display all the enriched terms in BP, CC and MF
+barplot(egoBP, showCategory=17)
+barplot(egoCC, showCategory=3)
+barplot(egoMF, showCategory=1)
+```
+
+## Dot plot
+```{r, fig.height = 15, fig.width = 20, fig.align = "center"}
+dotplot(go, split="ONTOLOGY") + facet_grid(ONTOLOGY~., scale="free")
+```
+## Gene-Concept Network plot
+```{r, fig.height = 10, fig.width = 20, fig.align = "center"}
+egoBP2 <- simplify(egoBP)
+egoCC2 <- simplify(egoCC)
+egoMF2 <- simplify(egoMF)
+cnetplot(egoBP2)
+cnetplot(egoBP2,circular = TRUE, colorEdge = TRUE)
+cnetplot(egoCC2)
+cnetplot(egoCC2,circular = TRUE, colorEdge = TRUE)
+cnetplot(egoMF2)
+cnetplot(egoMF2,circular = TRUE, colorEdge = TRUE)
+```
+
+## UpSet plot
+```{r, fig.height = 10, fig.width = 20, fig.align = "center"}
+upsetplot(egoBP)
+upsetplot(egoCC)
+upsetplot(egoMF)
+```
+
+## Heatmap-like functional classification
+```{r, fig.height = 10, fig.width = 20, fig.align = "center"}
+heatplot(go)
+```
+
+## Enrichment map
+```{r, fig.height = 10, fig.width = 20, fig.align = "center"}
+emapplot(x)
+```
+

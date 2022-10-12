@@ -172,6 +172,7 @@ def get_pick_summary(file_json, pick_diseases):
     return summary
 
 
+# merge duplication patient's data from list (Hypercholesterolemia and High Cholesterol)
 def merge_dup(data_dict, dup_a, dup_b):
     a_rid = list(data_dict[dup_a]["RID_LIST"])
     b_rid = list(data_dict[dup_b]["RID_LIST"])
@@ -212,9 +213,8 @@ pick_diseases = [
 # jsonFile.close()
 # ------------------------------------------------------------
 
-
+# get the information of each patient by RID and their personal info such as age, gender, year of education and apoe4 score
 def get_rid_with_info(file_name):
-    # col 1 = DX
     cn_index = []
     mci_index = []
     ad_index = []
@@ -300,6 +300,7 @@ def get_rid_with_info(file_name):
 # ------------------------------------------------------------
 
 
+# get the count of patient for each disease respect to their condition CN, MCI, AD or NaN(No data entry)
 def get_patient_disease_cond(top_diseases, rid_with_cond):
     df1 = pd.read_json(top_diseases, typ="series")
     df2 = pd.read_json(rid_with_cond, typ="series")
@@ -346,7 +347,7 @@ def get_patient_disease_cond(top_diseases, rid_with_cond):
 # jsonFile.close()
 # ------------------------------------------------------------
 
-
+# display data for visual representation
 def display_summary_table(disease_cond):
     df = pd.read_json(disease_cond, typ="series")
     headers = list(df.keys())
@@ -380,7 +381,7 @@ def display_summary_table(disease_cond):
 #     f_output.write(csv_str)
 # ------------------------------------------------------------
 
-
+# convert patient RID and information to CSV file
 def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict):
     df1 = pd.read_json(disease_cond, typ="series")
     df2 = pd.read_csv(adni_merge, low_memory=False)
@@ -504,7 +505,7 @@ def patient_rid_cond_to_csv(disease_cond, adni_merge, rid_with_info, di_rid_dict
 
 # ------------------------------------------------------------
 
-
+# count the number of patient for each condition
 def cond_count(file):
     df = pd.read_json(file, typ="series")
     dict_keys = list(df.keys())
@@ -520,10 +521,3 @@ def cond_count(file):
         elif df[key] == "AD":
             ad_count += 1
     return cn_count, mci_count, ad_count
-
-
-# print(cond_count(rid_with_cond))
-
-# patients = pd.read_csv(adni_merge, low_memory=False)
-# count = len(np.unique(patients["RID"]))
-# print(count)

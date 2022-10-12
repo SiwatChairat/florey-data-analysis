@@ -347,7 +347,7 @@ rid_info = get_rid_with_info(aibl_csv)
 # jsonFile.write(jsonStr)
 # jsonFile.close()
 
-
+# convert patient data (RID, Condition) to CSV file
 def patient_rid_cond_to_csv(disease_cond, aibl, rid_with_info):
     df1 = pd.read_json(disease_cond)
     df2 = pd.read_csv(aibl, low_memory=False)
@@ -469,6 +469,7 @@ def patient_rid_cond_to_csv(disease_cond, aibl, rid_with_info):
 # patient_rid_cond_to_csv(aibl_disease_rid, aibl_csv, rid_info_json)
 
 
+# Retrieve patient's disease condition from csv file
 def get_patient_disease_cond(top_diseases, rid_with_cond):
     df1 = pd.read_json(top_diseases)
     df2 = pd.read_json(rid_with_cond, typ="series")
@@ -515,6 +516,7 @@ def get_patient_disease_cond(top_diseases, rid_with_cond):
 # jsonFile.close()
 
 
+# display a summary table of each condition CN, MCI and AD
 def display_summary_table(disease_cond, white_list):
     df = pd.read_json(disease_cond, typ="series")
     headers = list(df.keys())
